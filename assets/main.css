@@ -19,6 +19,10 @@ body {
     color: #1a1a1a;
 }
 
+body.modal-open {
+    overflow: hidden;
+}
+
 .container-fluid {
     padding-right: 0px;
     padding-left: 0px;
