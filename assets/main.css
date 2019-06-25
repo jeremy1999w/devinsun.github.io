@@ -1,0 +1,462 @@
+/* Debugging */
+/*
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+*/
+
+/* Global */
+:root {
+    --light-gray: rgb(248, 249, 250);
+}
+
+body {
+    position: relative;
+    padding-top: 84.25px;
+    font-size: 16px;
+    color: #1a1a1a;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.new-section {
+    padding: 3rem 4.5rem;
+}
+
+/* Media Query for MD and lower */
+    @media screen and (max-width: 768px) {
+    .new-section {
+        padding: 12vw 10vw !important;
+    }
+}
+
+/* Navbar */
+.navbar-light .navbar-nav .nav-link.active {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var(--light-gray);
+}
+
+/* Splash */
+#landing img {
+    width: 100%;
+}
+
+/* Media Query for LG and higher */
+@media screen and (min-width: 992px) {
+    #landing img {
+        background-position: center bottom;
+        background-size: cover;
+        object-fit: cover;
+        height: 50vh;
+        width: 100%;
+    }
+}
+
+/* Overview */
+#section-1, #section-2, #section-3, #section-4, #section-5, #section-6,  #section-7 {
+    padding-top: 83.25px;
+    margin-top: -83.25px;
+}
+
+#overview {
+    background-color: #4eb055;
+}
+
+#overview .col-md-6 {
+    color: var(--light-gray);
+}
+
+#overview h1 {
+    font-size: 8.4vw;
+}
+
+#overview h3 {
+    font-size: 2.5vw;
+}
+
+#overview h6 {
+    font-size: 1.5vmax;
+    line-height: 2.5vmax;
+    letter-spacing: 0.12vw;
+}
+
+    /* Media Query for MD and lower */
+    @media screen and (max-width: 768px) {
+        #overview h1 {
+            font-size: 16.1vw !important;
+        }
+
+        #overview h3 {
+            font-size: 5vw !important;
+            padding-bottom: 3vw !important;
+        }
+
+        #overview h6 {
+            font-size: 3.5vw !important;
+            line-height: 1.5 !important;
+        }
+    }
+
+/* Products and Services */
+#services {
+    background-color: var(--light-gray);
+}
+
+#services h1 {
+    padding-bottom: 1.5vw;
+}
+
+#services .card {
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+    min-height: 62vh;
+}
+
+#services .card-icon {
+    padding-bottom: 1.25vw;
+}
+
+#services .card-title {
+    text-align: center;
+    font-size: 2vw;
+}
+
+#services .card-text {
+    text-align: justify;
+}
+
+    /* Media Query for MD and lower */
+    @media screen and (max-width: 768px) {
+        #services h1 {
+            font-size: 6.7vw !important;
+            padding-bottom: 7vw;
+        }
+        
+        #services .card {
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+        }
+        
+        #services .card-title {
+            font-size: 6vw;
+        }
+        
+        #services .card-icon {
+            width: 15vw;
+            padding-bottom: 3vw;
+        }
+    
+    }
+
+/* Filler 1 */
+#filler-1 {
+    background-image: url("/images/bg-1.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    object-fit: contain;
+    height: 50vh;
+    padding: 3rem 6rem;
+}
+
+.darken-pseudo {
+  position: relative;
+}
+
+.darken-pseudo:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.darken-with-text h1 {
+  margin: 0;
+  font-size: 5vw;
+  color: var(--light-gray);
+  padding:  5vw;
+  position: relative;
+  z-index: 1;
+}
+
+    @media screen and (max-width: 992px) {
+        #filler-1 {
+            padding: 3rem 1rem;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        #filler-1 {
+            padding: 3rem 1rem;
+            height: 30vh;
+        }
+        
+        .darken-with-text h1 {
+            font-size: 7vw;
+        }
+    }
+
+/* Overview */
+#overview {
+    background-color: #4eb055;
+}
+
+#overview .col-md-6 {
+    color: var(--light-gray);
+}
+
+#overview h1 {
+    font-size: 8.4vw;
+}
+
+#overview h3 {
+    font-size: 2.5vw;
+}
+
+#overview h6 {
+    font-size: 1.5vmax;
+    line-height: 2.5vmax;
+    letter-spacing: 0.12vw;
+}
+
+    /* Media Query for MD and lower */
+    @media screen and (max-width: 768px) {
+        #overview h1 {
+            font-size: 16.1vw !important;
+        }
+
+        #overview h3 {
+            font-size: 5vw !important;
+            padding-bottom: 3vw !important;
+        }
+
+        #overview h6 {
+            font-size: 3.5vw !important;
+            line-height: 1.5 !important;
+        }
+    }
+
+/* Why */
+#why {
+    background-color: var(--light-gray);
+}
+
+#why h1 {
+    padding-bottom: 1.5vw;
+}
+
+#why .card {
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+    min-height: 43vh;
+}
+
+#why .card-icon {
+    padding-bottom: 1.25vw;
+}
+
+#why .card-title {
+    text-align: center;
+    font-size: 2vw;
+}
+
+#why .card-text {
+    text-align: justify;
+}
+
+    /* Media Query for MD and lower */
+    @media screen and (max-width: 768px) {
+        #why h1 {
+            font-size: 6.7vw !important;
+            padding-bottom: 7vw;
+        }
+        
+        #why .card {
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+        }
+        
+        #why .card-title {
+            font-size: 6vw;
+        }
+        
+        #why .card-icon {
+            width: 15vw;
+            padding-bottom: 3vw;
+        }
+    
+    }
+
+/* Team */
+#team {
+    background-color: #4eb055;
+    color: var(--light-gray);
+}
+
+#team h1 {
+    padding-bottom: 1.5vw;
+}
+
+#team .row-members {
+    padding: 2vw;
+    margin: 0 3vw;
+}
+
+#team .col-md-4 {
+    padding: 0;
+}
+
+#team .name {
+    margin: 0.5vw;
+    font-size: 2vw;
+}
+
+#team .positions {
+    margin: 0;
+    font-size: 1.5vw;
+}
+
+#team img {
+    border-radius: 50%;
+    width: 75%;
+    filter: grayscale(100%);
+}
+
+    /* Media Query for MD and lower */
+    @media screen and (max-width: 768px) {
+        #team h1 {
+            padding-bottom:  6.7vw;
+        }
+        
+        #team .col-md-4 {
+            padding: 1vw 0 4vw 0;
+        }
+        
+        #team .name {
+            margin: 2vw 0 1vw 0;
+            font-size: 7vw;
+        }
+        
+        #team .positions {
+            font-size: 4vw;
+        }
+    }
+
+/* News */
+#news {
+    background-color: #1a1a1a;
+}
+
+#news h1 {
+    padding-bottom: 3vw;
+    color: var(--light-gray);
+}
+
+#news .card {
+    margin: 0.5vw;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+#news h4 {
+    margin-bottom: 0;
+}
+
+    /* Media Enquiryfor MD and lower */
+    @media screen and (max-width: 768px) {
+        #news h1 {
+            padding-bottom: 6.7vw;
+        }
+        
+        #news h4 {
+            font-size: 4vw;
+        }
+    }
+
+/* Contact */
+#contact h1 {
+    padding-bottom: 3vw;
+    color: #1a1a1a;
+}
+
+#contact td {
+    padding: 6px;
+    border: 0;
+}
+
+    /* Media Enquiry for MD and lower*/
+    @media screen and (max-width: 768px) {
+        #news h1 {
+            padding-bottom: 6.7vw;
+        }
+    }
+
+/* Footer */
+#footer {
+    background-color: #1a1a1a;
+    padding: 0.5rem 4.5rem;
+    color: var(--light-gray);
+}
+
+#footer p {
+    margin: 0;
+}
+
+    /* Media Enquiry for MD and lower*/
+    @media screen and (max-width: 768px) {
+        #footer {
+            padding: 3vw 10vw;
+        }
+        
+        #footer p {
+            font-size: 2.5vw;
+        }
+    }
+
+/* Disclaimer */
+#disclaimer .heading {
+    display: block;
+    margin-bottom: -2.5vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+#disclaimer .modal-dialog {
+    margin: 1rem auto;
+}
+
+    @media screen and (max-width: 768px) {
+        #disclaimer p {
+            font-size: 2vw;
+        }
+        
+        #disclaimer .heading {
+            margin-bottom: -2vh;
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        #disclaimer .modal-xl {
+            max-width: 80vw;
+        }
+        
+        #disclaimer p {
+            font-size: 2.9vw;
+        }
+        
+        #disclaimer .heading {
+            margin-bottom: -2vh;
+        }
+    }
+
+/* Privacy Statement */
+#privacy .heading {
+    font-weight: bold;
+}
