@@ -414,6 +414,10 @@ body.modal-open {
     color: var(--light-gray);
 }
 
+#footer a {
+    color: var(--light-gray);
+}
+
 #footer p {
     margin: 0;
 }
