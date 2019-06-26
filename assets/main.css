@@ -23,6 +23,10 @@ body {
     color: #1a1a1a;
 }
 
+.modal {
+    -webkit-overflow-scrolling: touch;
+}
+
 body.modal-open {
     overflow: hidden;
     position: fixed;
