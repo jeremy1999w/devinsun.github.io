@@ -29,7 +29,7 @@ body {
 
 body.modal-open {
     overflow: hidden;
-    position: fixed;
+    position: absolute;
 }
 
 .container-fluid {
@@ -340,6 +340,11 @@ body.modal-open {
     border-radius: 50%;
     width: 50%;
     filter: grayscale(100%);
+    cursor: pointer;
+}
+
+#team .btn {
+    margin-bottom: 0.75vh;
 }
 
     /* Media Query for MD and lower */
@@ -448,6 +453,10 @@ body.modal-open {
     margin-bottom: -2.5vh;
     font-weight: bold;
     text-align: center;
+}
+
+#disclaimer a button {
+    margin-bottom: 1.25vh;
 }
 
 #disclaimer .modal-dialog {
