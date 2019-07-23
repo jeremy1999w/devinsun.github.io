@@ -1,0 +1,122 @@
+/* Global */
+:root {
+    --wh-green: #4eb055;
+    --light-gray: rgb(248, 249, 250);
+    --dark: #1a1a1a;
+}
+
+body {
+    padding-top: 74px;
+}
+
+.new-section {
+    padding: 2rem 2.5rem;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 2.2em;
+    padding-bottom: 1.5rem;
+}
+
+.navbar-brand img {
+    height: 3rem;
+}
+
+/* Landing */
+#landing img {
+    width: 100vw;
+}
+
+/* Overview */
+#overview {
+    min-height: 100%;
+    background-color: var(--wh-green);
+    color: var(--light-gray);
+}
+
+.overview-left-text {
+    font-weight: bold;
+}
+
+/* Services */
+#services {
+    min-height: 100%;
+    background-color: var(--light-gray);
+    color: var(--dark);
+}
+
+.service {
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#services .card {   
+    margin-bottom: 3rem;
+}
+
+/* Separator */
+#separator {
+    
+}
+/*
+#separator img {
+    width: 100vw;
+}*/
+
+/* Why */
+#why {
+    background-color: var(--light-gray);
+    color: var(--dark);
+}
+
+#why .card {
+    margin-bottom: 3rem;
+}
+
+/* Team */
+#team {
+    background-color: var(--wh-green);
+    color: var(--light-gray);
+}
+
+#team img {
+    width: 75%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+@media screen and (max-width: 768px) {
+    #team .col-md-6 {
+        padding: 0.5rem;
+    }
+}
+
+/* News */
+#news {
+    background-color: var(--dark);
+}
+
+/* Contact */
+#contact {
+    height: 100%;
+    color: var(--dark);
+}
+
+@media screen and (max-width: 768px) {
+    #contact table {
+        margin-bottom: 10rem;
+    }
+}
+
+#footer {
+    background-color: black;
+    color: var(--light-gray);
+    padding: 0.3rem 2rem;
+}
+
+#footer button {
+    margin: 0.5rem;
+}
+}

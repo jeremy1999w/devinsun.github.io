@@ -5,13 +5,13 @@
     <head>
         <!-- Required metadata tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial scale=1, shrink-to-fit=no">
         
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         
         <!-- Custom CSS override -->
-        <link rel="stylesheet" type="text/css" href="assets/main.css">
+        <link rel="stylesheet" type="text/css" href="assets/custom.css">
         
         <!-- Tab information -->
         <title>Wolver Hill | a fund platform</title>
@@ -19,20 +19,20 @@
         <link rel="shortcut icon" href="images/favicon.png">
     </head>
     
-    <!-- Header -->
     <header>
         <!-- Navigation bar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             
             <!-- Logo -->
             <a class="navbar-brand">
-                <img src="images/brandname.png" width="200vw" alt="logo">
+                <img src="images/brandname.png">
             </a>
             
             <!-- Dropdown menu button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navgiation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            
             
             <!-- Links -->
             <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -41,22 +41,22 @@
                         <a class="nav-link" href="#section-1">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#section-2">Overview <span class="sr-only">(overview)</span></a>
+                        <a class="nav-link" href="section-2">Overview <span class="sr-only">(overview)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#section-3">Services <span class="sr-only">(services)</span></a>
+                        <a class="nav-link" href="section-3">Services <span class="sr-only">(services)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#section-4">Why Wolver Hill <span class="sr-only">(why wolver hill)</span></a>
+                        <a class="nav-link" href="section-4">Why Wolver Hill <span class="sr-only">(why wolver hill)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#section-5">Team <span class="sr-only">(team)</span></a>
+                        <a class="nav-link" href="section-5">Team <span class="sr-only">(team)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#section-6">News <span class="sr-only">(news)</span></a>
+                        <a class="nav-link" href="section-6">News <span class="sr-only">(news)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#section-7">Contact <span class="sr-only">(contact)</span></a>
+                        <a class="nav-link" href="section-7">Contact <span class="sr-only">(contact)</span></a>
                     </li>
                 </ul>
             </div>
@@ -64,125 +64,197 @@
     </header>
     
     <!-- Body -->
-    <body data-spy="scroll" data-target=".navbar" offset="84.25">
+    <body>
         <!-- Landing -->
+<!--
         <div id="section-1"></div>
-        <div id="landing" class="container-fluid">
+        <div id="landing">
             <img class="img-fluid" src="images/splash.jpg">
         </div>
-        
+-->
+   
         <!-- Overview -->
         <div id="section-2"></div>
         <div id="overview" class="container-fluid new-section">
-            <div class="row">
-                <div class="col-lg-6 align-self-center text-center text-lg-right">
-                    <h4>Welcome to</h4>
-                    <h1>Wolver Hill</h1>
-                    <h3>Asset Management Asia Limited</h3>
+            <div class="row h-100">
+                <div class="col-md-6 align-self-center" >
+                    <div class="row">
+                        <div class="col text-md-right text-center overview-left-text" style="font-size: 1.75em">Welcome to</div>
+                    </div>
+                    <div class="row text-right">
+                        <div class="col text-md-right text-center overview-left-text" style="font-size: 3.52em">Wolver Hill</div>
+                    </div>
+                    <div class="row">
+                        <div class="col text-md-right text-center overview-left-text" style="font-size: 1.22em; ">Asset Management Asia Limited</div>
+                    </div>
                 </div>
-                <div class="col-lg-6 align-self-center text-justify">
-                    <h6>Wolver Hill Asset Management Asia Limited (“WHAMAL”) is part of the Wolver Hill group – an Asia-focused alternative investment asset management and advisory group established by Edward J. Rogers in 2006. In cooperation with its Tokyo-based affiliate Rogers Investment Advisors, WHAMAL provides best-in-class hedge fund platform, consulting and advisory services for alternative investment managers.</h6>
+                <div class="col-md-6 text-justify align-self-center">
+                    Wolver Hill Asset Management Asia Limited (“WHAMAL”) is part of the Wolver Hill group – an Asia-focused alternative investment asset management and advisory group established by Edward J. Rogers in 2006. In cooperation with its Tokyo-based affiliate Rogers Investment Advisors, WHAMAL provides best-in-class hedge fund platform, consulting and advisory services for alternative investment managers.
                 </div>
             </div>
         </div>
-        
-        <!-- Products and Services -->
+    
+        <!-- Services -->
         <div id="section-3"></div>
         <div id="services" class="container-fluid new-section">
-            <!-- Section Title -->
             <div class="row">
-                <div class="col-lg-12 align-self-center text-center">
-                    <h1>Our Products and Services</h1>
-                </div>
+                <div class="col text-center heading">Services</div>
             </div>
-            
-            <!-- Cards -->
-            <div class="row">
-                <!-- Card 1 1/3 at LG -->
+            <div class="row text-center">
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_sheet_txt.svg" alt="Fund Establishment">
-                            <h2 class="card-title">Fund Establishment</h2>
-                            <p class="card-text">The Wolver Hill platform delivers innovative and cost-efficient solutions for emerging managers in Asia by providing full support for setting up new hedge funds businesses including the selection of top tier key service providers (lawyers, prime brokers, administrators, directors or trustees), coordination between all relevant parties, managing completion of fund documents, and the registration of all relevant vehicles. Given our team’s expertise and track record, the launch time of a new fund can be shortened to 2-4 months at a fraction of the cost. </p>
+                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_sheet_txt.svg" alt="">
+                            <div class="row">
+                                <div class="col service">
+                                    Establishment
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-justify">
+                                    Our platform delivers innovative and cost-efficient solutions for emerging fund managers in Asia by providing full support for setting up new hedge funds businesses including the selection of top tier key service providers (Lawyers, Prime Brokers, Administrators, Directors or Trustees, etc.), coordination between all relevant parties, managing completion of fund documents, and the registration of all relevant vehicles. As a result of our team’s seasoned expertise and track record, can launch funds in a time and cost efficient manner.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-                <!--Card 2 1/3 at LG -->
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_gear.svg" alt="Operations">
-                            <h2 class="card-title">Operations</h2>
-                            <p class="card-text">Managers have access to our regulatory coverage either in Hong Kong through WHAMAL (licensed by the Hong Kong Securities and Futures Commission<!-- for conducting type 4 (securities advising) and type 9 (asset management) regulated activities-->) and / or Tokyo through Rogers Investment Advisors K.K. (registered with the Kanto Finance Bureau as a registered investment advisor). Our team provides on-going operational support for hedge funds through Post-Launch Services. These services are supported and facilitated by a highly experienced team, state-of-the-art technology for day-to-day middle- and back-office operational support, outsourced COO-level support,<!-- professional office space in Hong Kong and Tokyo, assistance in fund raising,--> as well as Mandarin, Cantonese and Japanese speakers on staff.</p>
+                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_gear.svg" alt="">
+                            <div class="row">
+                                <div class="col service">
+                                    Operations
+                                </div>
+                            </div>
+                            <div class="row">    
+                                <div class="col text-justify">
+                                    Managers have access to our regulatory coverage either in Hong Kong through WHAMAL (licensed by the Hong Kong SFC) and / or Tokyo through Rogers Investment Advisors K.K. (registered with the Kanto Finance Bureau as a registered investment advisor). Our team provides on-going operational support for hedge funds. These services are supported and facilitated by a highly experienced team, institutional-grade technology for day-to-day middle- and back-office operations, outsourced COO-level support, and a multilingual team. 
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-                <!-- Card 3 1/3 at LG -->
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_settings.svg" alt="Infrastructure">
-                            <h2 class="card-title">Infrastructure</h2>
-                            <p class="card-text"><!--The Wolver Hill platform delivers innovative and cost-efficient solutions for emerging managers in Asia by--> Wolver Hill provides a top-tier supporting infrastructure including control, compliance and technology thereby allowing managers to focus on executing their strategies. WHAMAL provides fully furnished and equipped offices in central locations for immediate use by fund managers in Hong Kong and Tokyo. <!--Each manager has his own room with electronic access control, telephone equipment, fax and internet data lines. The common facilities include a conference room equipped with video conference capabilities and a professional printing machine.--> WHAMAL has invested in institutional-standard IT infrastructure required from a boutique hedge fund management company, including a state-of-the-art cloud-based Portfolio Management System – Beauchamp. All users in our office are supported by Principle One, an experienced IT consultant, well-known in the hedge fund industry in Hong Kong.</p>
+                            <img clas="mx-auto d-block card-icon" src="images/icons/SVG/basic_settings.svg" alt="">
+                            <div class="row">
+                                <div class="col service">
+                                    Infrastructure
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-justify">
+                                    The firm’s top-tier supporting infrastructure including control, compliance and technology allows managers to focus on strategy execution. We can provide fully furnished and equipped offices in central locations for immediate use by fund managers in Hong Kong or Tokyo. WHAMAL has also invested in institutional-standard IT infrastructure, including a cloud-based Portfolio Management System – Beauchamp. All users in our office are supported by Principle One, a well-known IT consultant in the hedge fund industry in Hong Kong.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         
-        <!-- Filler 1 -->
-        <div id="filler-1" class="container-fluid darken-pseudo darken-with-text">
-            <div class="row h-100">
-                    <div class="col align-self-center">
-                        <h1 class="tagline">Offering innovative Asian investment solutions since 2014</h1>
-                    </div>
-            </div>
+        <!-- Separator -->
+        <div id="separator">
+            <img class="img-fluid" src="images/bg-1.jpg">
         </div>
         
-        <!-- Why -->
+        <!-- Why Wolver Hill -->
         <div id="section-4"></div>
         <div id="why" class="container-fluid new-section">
-            <!-- Section Title-->
             <div class="row">
-                <div class="col-12 align-self-center text-center">
-                    <h1>Why Wolver Hill</h1>
+                <div class="col text-center heading">
+                    Why Wolver Hill
                 </div>
             </div>
-            
-             <!-- Cards -->
-            <div class="row">
-                <!-- Card 1 1/3 at LG -->
+            <div class="row text-center">
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_world.svg" alt="Local Expertise">
-                            <h2 class="card-title">Local Expertise</h2>
-                            <p class="card-text">The firm, which is located in Tokyo and Hong Kong, is able to capitalize on local knowledge and networks to have a critical understanding, and to source the key relationships for hedge funds including all of the major Prime Brokers, Administrators, legal firms and software providers. Additionally, the team includes speakers of Mandarin, Cantonese, Japanese and English.</p>
+                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_world.svg" alt="">
+                            <div class="row">
+                                <div class="col service">
+                                    Efficient Execution
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-justify">
+                                    By creating an “Economy of Scale,” our services significantly reduce time and cost for new fund launches in Asia. The high standard and efficiency of our operational services and procedures gives us a competitive edge in an industry in which these such solutions are crucial to manager success. Our team strives to achieve “operational alpha” for large- and small-scale managers. 
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-                <!--Card 2 1/3 at LG -->
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_lightbulb.svg" alt="Manager Focused">
-                            <h2 class="card-title">Manager Focused</h2>
-                            <p class="card-text">Fund managers can choose to be based in either Hong Kong or Tokyo, and managers are not restricted to use any particular service providers, including fund administrators, execution systems or 3rd party marketers. Also, managers’ proprietary research remains their intellectual property, so we do not use their data for our proprietary trading.</p>
+                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_lightbulb.svg" alt="">
+                            <div class="row">
+                                <div class="col service">
+                                    Manager Focused
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-justify">
+                                    With offices in Hong Kong and Tokyo, the firm offers a bespoke service. Managers can choose to be based in either location. In addition, managers are not restricted to any particular service providers, including Fund Administrators, Trade Execution Systems or 3rd Party Marketers. Furthermore, managers’ proprietary research remains their intellectual property.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-                <!-- Card 3 1/3 at LG -->
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_case.svg" alt="Qualified Team">
-                            <h2 class="card-title">Qualified Team</h2>
-                            <p class="card-text">Operational issues that can greatly impact hedge fund manager returns behind the scenes can be addressed by our seasoned team of industry professionals based in Asia. The team uniquely combines decades of buy-side, sell-side, and service provider experience in Hedge Funds, Prime Brokerage and Asset Management. The Wolver Hill team offers high quality service.</p>
+                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_case.svg" alt="">
+                            <div class="row">
+                                <div class="col service">
+                                    Expanded Opportunities
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-justify">
+                                    Our secure, vetted and risk-managed environment allows investors ranging from the largest US and European institutions to family offices/HNW individuals to access superior Asian-based alternative investment products. We seek to offer unique opportunities by taking advantage of the multi-trillion alternative investment flow moving into and out of Asia.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center justify-content-center">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="mx-auto d-block card-icon">
+                                <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_case.svg" alt="">
+                            </div>
+                            <div class="row">
+                                <div class="col service">
+                                    Qualified Team
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-justify">
+                                    Operational issues that can greatly impact hedge fund manager returns behind the scenes can be addressed by our seasoned team of industry professionals based in Asia. The team uniquely combines decades of buy-side, sell-side, and service provider experience in Hedge Funds, Prime Brokerage and Asset Management. The Wolver Hill team offers high quality service.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_case.svg" alt="">
+                            <div class="row">
+                                <div class="col service">
+                                    Local Expertise
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-justify">
+                                   The team capitalizes on local knowledge and networks to develop a critical understanding of the key drivers of the industry and source essential relationships with major Prime Brokers, Administrators, Legal Firms and Software Providers. Additionally, our multilingual team consists of Japanese, Mandarin, and Cantonese speakers to best meet the needs of our clients.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -192,63 +264,188 @@
         <!-- Team -->
         <div id="section-5"></div>
         <div id="team" class="container-fluid new-section">
-            <!-- Section Title -->
             <div class="row">
-                <div class="col-12 align-self-center text-center">
-                    <h1>Team</h1>
+                <div class="col text-center heading">
+                    Team
                 </div>
             </div>
-            
-            <div class="row row-members">
-                <!-- Ed Rogers-->
-                <div class="col-lg-4 text-center">
-                    <img class="d-block mx-auto" src="images/headshots/ed_rogers.jpg" alt="Ed Rogers">
-                    <h4 class="name">Ed Rogers</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-2 col-md-6 text-center">
+                    <img class="mx-auto d-block" src="images/headshots/ed_rogers.jpg" alt="Ed Rogers">
+                    <div>Ed Rogers</div>
                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#ed_bio">Biography</button>
-                    <h6 class="positions">Responsible Officer<br>Chief Executive Officer<br>Executive Director</h6>
+                    <div>Responsible Officer<br>Chief Executive Officer<br>Executive Director</div>
                 </div>
-                
-                <!-- Ken Chuen -->
-                <div class="col-lg-4 text-center">
-                    <img class="d-block mx-auto" src="images/headshots/blank-profile.png" alt="Ken Chuen">
-                    <h4 class="name">Ken Chuen</h4>
+                <div class="col-lg-2 col-md-6 text-center">
+                    <img class="mx-auto d-block" src="images/headshots/blank-profile.png" alt="Ken Chuen">
+                    <div>Ken Chuen</div>
                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#ken_bio">Biography</button>
-                    <h6 class="positions">Responsible Officer<br>Chief Operating Officer</h6>
+                    <div>Responsible Officer<br>Chief Operating Officer</div>
                 </div>
-                
-                <!-- John Inamine -->
-                <div class="col-lg-4 text-center">
-                    <img class="d-block mx-auto" src="images/headshots/john-inamine.png" alt="John Inamine">
-                    <h4 class="name">John Inamine</h4>
+                <div class="col-lg-2 col-md-6 text-center">
+                    <img class="mx-auto d-block" src="images/headshots/john-inamine.png" alt="John Inamine">
+                    <div>John Inamine</div>
                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#john_bio">Biography</button>
-                    <h6 class="positions">Chief Risk Officer</h6>
+                    <div>Chief Risk Officer</div>
+                </div>
+                <div class="col-lg-2 col-md-6 text-center">
+                    <img class="mx-auto d-block" src="images/headshots/sandeep_mand.jpeg" alt="sandeep Mand">
+                    <div>Sandeep Mand</div>
+                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#sandeep_bio">Biography</button>
+                    <div>Responsible Officer<br>Managing Director</div>
                 </div>
             </div>
-            
-            <div class="row row-members">
-                <!-- Sandeep Mand -->
-                <div class="col-lg-4 text-center">
-                    <img class="d-block mx-auto" src="images/headshots/sandeep_mand.jpeg" alt="Sandeep Mand">
-                    <h4 class="name">Sandeep Mand</h4>
-                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#sandeep_bio">Biography</button>
-                    <h6 class="positions">Responsible Officer<br>Managing Director</h6>
-                </div>
-                
-                <!-- Len Umantz -->
-                <div class="col-lg-4 text-center">
-                    <img class="d-block mx-auto" src="images/headshots/len_umantz.png" alt="Len Umantz">
-                    <h4 class="name">Len Umantz</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-2 col-md-6 text-center">
+                    <img class="mx-auto d-block" src="images/headshots/len_umantz.png" alt="Len Umantz">
+                    <div>Len Umantz</div>
                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#len_bio">Biography</button>
-                    <h6 class="positions">Responsible Officer<br>Head of Product Development</h6>
+                    <div>Responsible Officer<br>Head of Product Development</div>
                 </div>
-                
-                <!-- Takio Sato -->
-                <div class="col-lg-4 text-center">
-                    <img class="d-block mx-auto" src="images/headshots/takio_sato.png" alt="Takio Sato">
-                    <h4 class="name">Takio Sato</h4>
-                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#takio_bio">Biography</button>
-                    <h6 class="positions" style="margin-bottom: 7px; ">Chief Operating Officer</h6>
-                    <h6 class="positions"><span style="padding: 2px; outline: 1.5px solid;">Rogers Investment Advisors</span></h6>
+                <div class="col-lg-2 col-md-6 text-center">
+                    <img class="mx-auto d-block" src="images/headshots/blank-profile.png" alt="Fred Lee">
+                    <div>Fred Lee</div>
+                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#fred_bio">Biography</button>
+                    <div>Head of Operations</div>
+                </div>
+                <div class="col-lg-2 col-md-6 text-center">
+                    <img class="mx-auto d-block" src="images/headshots/blank-profile.png" alt="Charles Lee">
+                    <div>Charles Lee</div>
+                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#charles_bio">Biography</button>
+                    <div>Business Analyst</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Ed Rogers Bio -->
+        <div class="modal fade" id="ed_bio" tabindex="-1" role="dialog" aria-labelledby="edBio" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div>
+                            Ed Rogers
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
+                    <div class="modal-body">
+                        Ed was previously Deutsche Bank Tokyo’s head of Prime Services sales and a member of DB Tokyo’s Equities Management committee. Prior to Deutsche Bank, Ed was a proprietary trader at Merrill Lynch in London, specializing in yield enhancement and corporate action arbitrage trades. Ed received a BA in History from Princeton University in 1987, and an MBA from Georgetown University in 1999.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Ken Chuen Bio -->
+        <div class="modal fade" id="ken_bio" tabindex="-1" role="dialog" aria-labelledby="kenBio" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div>
+                            Ken Chuen
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Ken joined WHAMAL in 2015, and he oversees all business functions of the Hong Kong operations. Ken was previously the Chief Operating Officer at Matchpoint Investment Management Group where he oversaw all the business functions including the fund and Group’s operations, finance, human resources, technology, investor relations and compliance. Prior to joining Matchpoint, Ken worked at Deephaven Capital where he led the middle- office operations and trading support for their Hong Kong office. Prior to that, Ken held a similar role at Gandhara Advisors Asia. From 2005 until 2007, Ken worked at UBS Investment Bank where he had overall responsibility for the middle office operations of the cash equity proprietary desk, and for monitoring operational risks within the team. Ken started his career with PricewaterhouseCoopers as a tax associate with a focus on US and HK taxation. Ken holds a double degree in Commerce & Economics from Monash University, Melbourne and the designation of Chartered Alternative Investment Analyst (CAIA).
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- John Inamine Bio -->
+        <div class="modal fade" id="john_bio" tabindex="-1" role="dialog" aria-labelledby="johnBio" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div>
+                            John Inamine
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        John oversees risk across the firm’s business lines. Most recently, Managing Director, Risk Management, at Nezu Asia, John was previously at SPARX Asset Management where he built up the fund of funds business from $50 million in AUM to $800 million, and later served as Head of Alternative Investments in Tokyo. Prior to that, John traded equity derivatives, beginning at O’Connor and Associates in Chicago, then at SBC Warburg in Tokyo where he ran the Japanese convertibles bonds book, and later at Deutsche Bank where he headed the Japanese convertible bonds trading and sales team. John also worked as an auditor for Arthur Young and Company after graduating from The Wharton School of the University of Pennsylvania and prior to obtaining an MBA from The Haas School of Business at the University of California, Berkeley.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Sandeep Mand Bio -->
+        <div class="modal fade" id="sandeep_bio" tabindex="-1" role="dialog" aria-labelledby="sandeepBio" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div>
+                            Sandeep Mand
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Sandeep joined WHAMAL in 2017 to focus on business development and bring risk oversight experience to the group. He has close to 28yrs experience in the Fixed Income markets having spent 22yrs in Japan before moving to Hong Kong as Head of Rates Sales & Trading Asia (ex. Japan) for Mitsubishi UFJ Securities where he was responsible for building out their nascent rates platform. Prior to this he was a Managing Director at Societe Generale in Tokyo in a similar capacity. His experience covers not only the front office sales and trading functions but also the legal, regulatory, compliance, finance, IT, and operational aspects of running a cross-border Asian business. Sandeep holds a BEng in Avionics from Queen Mary College, London and a MSc. in Management Science from Imperial College, London.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Len Umantz Bio -->
+        <div class="modal fade" id="len_bio" tabindex="-1" role="dialog" aria-labelledby="lenBio" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div>
+                            Len Umantz
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Len was most recently an Executive Director at Morgan Stanley New York’s Securitized Products Group where he worked on relative value and capital structure arbitrage strategies in credit and mortgage derivatives and oversaw development of quantitative models for mortgage-backed securities trading. Prior to that, Mr. Umantz worked in fixed income and foreign exchange derivatives trading at Susquehanna International Group in London, where he was a part of a global exotics / hybrids trading desk covering Europe, Japan, and Asia. Len holds a PhD in Finance from Stanford University and an MS in Mathematics from Northwestern. During his doctoral studies he worked for Goldman Sachs Asset Management in New York and Bill Sharpe’s Financial Engines in Palo Alto.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Fred Lee Bio -->
+        <div class="modal fade" id="fred_bio" tabindex="-1" role="dialog" aria-labelledby="fredBio" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div>
+                            Fred Lee
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Lorem ipsum.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Charles Lee Bio -->
+        <div class="modal fade" id="charles_bio" tabindex="-1" role="dialog" aria-labelledby="charlesBio" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div>
+                            Charles Lee
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Lorem ipsum.
+                    </div>
                 </div>
             </div>
         </div>
@@ -256,77 +453,764 @@
         <!-- News -->
         <div id="section-6"></div>
         <div id="news" class="container-fluid new-section">
-            <!-- Section Title -->
             <div class="row">
-                <div class="col-12 align-self-center text-center">
-                    <h1>News</h1>
+                <div class="col text-center heading" style="color: var(--light-gray)">
+                    News
                 </div>
             </div>
-        
-            <!-- News Articles -->
-            <div class="accordion">
-                <!-- News 1 -->
+            
+            <div id="accordion" class="accordion">
+                <!-- 2019 -->
                 <div class="card rounded">
-                    <div class="card-header" data-toggle="collapse" data-target="#collapse1" id="heading1">
+                    <div class="card-header" data-toggle="collapse" data-target="#collapse2019" id="heading2019">
                         <div class="row">
-                            <div class="col-6 text-left">
-                                <h4>Bloomberg Radio</h4>
-                            </div>
-                            <div class="col-6 text-right">
-                                <h4>April 25, 2019</h4>
-                            </div>
+                            <div class="col">2019</div>
                         </div>
                     </div>
                     
-                    <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#news">
+                    <div id="collapse2019" class="collapse" aria-labelledby="heading2019" data-parent="#accordion">
                         <div class="card-body">
-                            <p>Ed Rogers, CEO of Wolver Hill, gave an interview on Bloomberg Daybreak Asia where he correctly predicted a further hardening of the Bank of Japan position on interest rates. Please follow the link below for the interview:</p>
-                            
-                            <a href="https://www.bloomberg.com/news/audio/2019-04-25/kuroda-in-a-very-tough-position-radio" target="_blank"><strong>April 25, 2019 - Bloomberg Radio</strong></a>
+                            <div class="accordion">
+                                <!-- News 2019 - 4 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2019-4" id="heading2019-4">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Bloomberg Radio
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                April 25, 2019
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2019-4" class="collapse show" aria-labelledby="heading2019-4" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, CEO and CIO at Rogers Investment Advisors, gave an interview on Bloomberg Daybreak Asia where he correctly predicted a further hardening of the Bank of Japan position on interest rates. Please follow the link below for the interview:<br><br>
+                                            
+                                            <strong><a href="https://www.bloomberg.com/news/audio/2019-04-25/kuroda-in-a-very-tough-position-radio">April 25, 2019 - Bloomberg Radio</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2019 - 3 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2019-3" id="heading2019-3">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Bloomberg
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                April 2, 2019
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2019-3" class="collapse" aria-labelledby="heading2019-3" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers is interviewed by Bloomberg in relation to how Japan, as a Long-Lost Hedge Fund Hub Is Slowly Emerging From the Shadows. The full article can be accessed at:<br><br>
+                                            
+                                            <strong><a href="https://www.bloomberg.com/news/articles/2019-04-02/a-long-lost-hedge-fund-hub-is-slowly-emerging-from-the-shadows">April 2, 2019 - Bloomberg</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2019 - 2-->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2019-2" id="heading2019-2">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Bloomberg TV
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                April 1, 2019
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2019-2" class="collapse" aria-labelledby="heading2019-2" data-parent="#news">
+                                        <div class="card-body">
+                                        Ed Rogers, founder of the Wolver Hill group, discusses Japan’s economy, the sales tax hike and the Tankan Survey. He speaks on “Bloomberg Daybreak: Asia”. Please follow the link below to view the interview:<br><br>
+                                        
+                                        <strong><a href="https://www.bloomberg.com/news/videos/2019-04-01/positive-u-s-china-trade-talks-of-great-benefit-to-japan-says-rogers-investment-s-ceo-video">April 1, 2019 - Bloomberg TV</a></strong>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2019 - 1 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2019-1" id="heading2019-1">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Tokyo Emerging Managers Program Announcement
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                February 28, 2019
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2019-1" class="collapse" aria-labelledby="heading2019-1" data-parent="#news">
+                                        <div class="card-body">
+                                        Rogers Investment Advisors K.K. (RIA) was selected as a managing company (Gatekeeper) for the Tokyo Emerging Managers Program Fund within the Emerging Managers Program (EMP), which was established by the Tokyo Metropolitan Government (TMG) on October 17, 2018. You can access the website of TMG for more info: <a href="https://www.seisakukikaku.metro.tokyo.jp/en/gfct/the-outline-for-the-granting-of-subsidy-pertaining-to-the-tokyo-emp-fund.html">here</a>. Please click here to access RIA’s full press release:<br><br>
+                                        
+                                        <strong><a href="https://www.rogersia.com/news/Rogers_Investment_Advisors_KK_Press_Release_TMG.pdf">February 28, 2019 - Tokyo Emerging Managers Program Announcement</a></strong>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
-                <!-- News 2 -->
+                <!-- 2018 -->
                 <div class="card rounded">
-                    <div class="card-header" data-toggle="collapse" data-target="#collapse2" id="heading2">
+                    <div class="card-header" data-toggle="collapse" data-target="#collapse2018" id="heading2018">
                         <div class="row">
-                            <div class="col-6 text-left">
-                                <h4>Bloomberg</h4>
-                            </div>
-                            <div class="col-6 text-right">
-                                <h4>April 2, 2019</h4>
-                            </div>
+                            <div class="col">2018</div>
                         </div>
                     </div>
                     
-                    <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#news">
+                    <div id="collapse2018" class="collapse" aria-labelledby="heading2018" data-parent="#accordion">
                         <div class="card-body">
-                            <p>CEO  Ed Rogers is interviewed by Bloomberg in relation to how Japan, as a Long-Lost Hedge Fund Hub Is Slowly Emerging From the Shadows. The full article can be accessed at:</p>
-                            
-                            <a href="https://www.bloomberg.com/news/articles/2019-04-02/a-long-lost-hedge-fund-hub-is-slowly-emerging-from-the-shadows" target="_blank"><strong>April 2, 2019 - Bloomberg</strong></a>
+                            <div class="accordion">
+                                <!-- News 2018 - 6 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2018-6" id="heading2018-6">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                CNBC
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                August 21, 2018
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2018-6" class="collapse show" aria-labelledby="heading2018-6" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, founder of Wolver Hill Group, was interviewed by CNBC on the Japanese markets and the economy. Please click here to watch the full interview:<br><br>
+                                            
+                                            <strong><a href="https://www.cnbc.com/video/2018/08/21/squawk-box-180822-asia.html?&qsearchterm=ed%20rogers">August 21, 2018 - CNBC</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2018 - 5 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2018-5" id="heading2018-5">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Bloomberg TV
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                July 2, 2018
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2018-5" class="collapse" aria-labelledby="heading2018-5" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, founder of Wolver Hill Group, was interviewed by Bloomberg TV on July 2nd on the Japanese markets, the economy and the country's capex plans. Please click here to watch the full interview:<br><br>
+                                            
+                                            <strong><a href="https://www.bloomberg.com/news/videos/2018-07-02/rogers-investment-advisors-ceo-sees-room-for-upside-surprise-in-japan-video">July 2, 2018 - Bloomberg TV</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2018 - 4 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2018-4" id="heading2018-4">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Bloomberg
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                April 10, 2018
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2018-4" class="collapse" aria-labelledby="heading2018-4" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, founder of the Wolver Hill Group, is interviewed by Bloomberg on Japan’s activist hedge funds.<br><br>
+                                            
+                                            <strong><a href="https://www.bloomberg.com/news/articles/2018-04-09/a-hedge-fund-picker-turns-to-activists-on-bet-japan-is-changing">April 10, 2018 - Bloomberg</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2018 - 3 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2018-3" id="heading2018-3">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Bloomberg TV
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                February 13, 2018
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2018-3" class="collapse" aria-labelledby="heading2018-3" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, founder of the Wolver Hill Group, was interviewed on Bloomberg TV about the latest trends in Japan’s economy. Please listen to the interview here:<br><br>
+                                            
+                                            <strong><a href="https://www.rogersia.com/news/YATIRIM_KUL%c3%9cB%c3%9c-ED_ROGERS.mp4">April 10, 2018 - Bloomberg TV</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2018 - 2 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2018-2" id="heading2018-2">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Bloomberg TV
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                January 23, 2018
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2018-2" class="collapse" aria-labelledby="heading2018-2" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, founder of the Wolver Hill group, was interviewed on Bloomberg TV this morning, discussing the latest BOJ’s policy decisions and potential impact on Japan’s economy. Please follow the below link to view the interview:<br><br>
+                                            
+                                            <strong><a href="https://www.bloomberg.com/news/videos/2018-01-23/rogers-investment-s-ceo-expects-kuroda-to-be-re-appointed-video">January 23, 2018 - Bloomberg TV</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2018 - 1 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2018-1" id="heading2018-1">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Deloitte Touche Tohmatsu Seminar
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                January 18, 2018
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2018-1" class="collapse" aria-labelledby="heading2018-1" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, founder of the Wolver Hill Group, has been invited to be a guest speaker on the topic of Emerging Managers at the seminar on Alternative Investment organised by Deloitte Touche Tohmatsu in Tokyo on Thursday, 18 January. The seminar is targetted at pension funds, insurance firms and other Japanese institutional investors who are interested in alternative investing.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
-                <!-- News 3 -->
+                <!-- 2017 -->
                 <div class="card rounded">
-                    <div class="card-header" data-toggle="collapse" data-target="#collapse3" id="#heading3">
+                    <div class="card-header" data-toggle="collapse" data-target="#collapse2017" id="heading2017">
                         <div class="row">
-                            <div class="col-6 text-left">
-                                <h4>Bloomberg TV</h4>
-                            </div>
-                            <div class="col-6 text-right">
-                                <h4>April 1, 2019</h4>
-                            </div>
+                            <div class="col">2017</div>
                         </div>
                     </div>
                     
-                    <div id="collapse3" class="collapse" aria-labelledby="headingThree" data-parent="#news">
+                    <div id="collapse2017" class="collapse" aria-labelledby="heading2017" data-parent="#accordion">
                         <div class="card-body">
-                            <p>Ed Rogers, CEO of Wolver Hill, discusses Japan’s economy, the sales tax hike and the Tankan Survey. He speaks on “Bloomberg Daybreak: Asia”. Please follow the link below to view the interview:</p>
-                            
-                            <a href="https://www.bloomberg.com/news/videos/2019-04-01/positive-u-s-china-trade-talks-of-great-benefit-to-japan-says-rogers-investment-s-ceo-video" target="_blank"><strong>April 1, 2019 - Bloomberg TV</strong></a>
+                            <div class="accordion">
+                                <!-- News 2017 - 10 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2017-10" id="heading2017-10">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Nomura Hedge Fund Forum
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                November 28, 2017
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2017-10" class="collapse show" aria-labelledby="heading2017-10" data-parent="#news">
+                                        <div class="card-body">
+                                            Our CEO Ed Rogers has been invited to give a presentation on alternative investing at Nomura’s annual Pension Fund forum in Tokyo. This exciting event will see over 120 Japanese pension funds meet for a day of expert commentary and manager due diligence at the beautiful Chinzanso Hotel in Tokyo. The full schedule of the event can be accessed here:<br><br>
+                                            
+                                            <strong><a href="https://www.rogersia.com/news/HF_Forum_Invitation_with_Speaker_Details_for_printing.pdf"></a>November 28, 2018 - Nomura Hedge Fund Forum</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2017 - 9 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2017-9" id="heading2017-9">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Bloomberg TV
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                October 31, 2017
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2017-9" class="collapse" aria-labeledby="heading2017-9" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, founder of the Wolver Hill Group, talked to Bloomberg TV about BOJ’s monetary policy and Japan’s economy. Please watch the interview here:<br><br>
+                                            
+                                            <strong><a href="https://www.bloomberg.com/news/videos/2017-10-31/rogers-sees-more-of-the-same-from-boj-video">October 31, 2017 - Bloomberg TV</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2017 - 8 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2017-8" id="heading2017-8">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                CNBC
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                September 28, 2017
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2017-8" class="collapse" aria-labeledby="heading2017-8" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, founder of the Wolver Hill Group, talked to CNBC about Japan’s upcoming snap election and the pressure Japan PM Abe faces to launch the “third arrow”. Please listen to the interview here:<br><br>
+                                            
+                                            <strong><a href="https://www.cnbc.com/video/2017/09/28/japan-pm-abe-faces-pressure-to-launch-third-arrow.html">September 28, 2017 - CNBC</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2017 - 7 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2017-7" id="heading2017-7">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                CNBC
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                August 9, 2017
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2017-7" class="collapse" aria-labeledby="heading2017-7" data-parent="#news">
+                                        <div class="card-body">
+                                            The Wolver Hill group’s founder Ed Rogers discusses dollar/yen dynamics against the background of the North Korean missile crisis in an interview with CNBC. Please read the entire interview here:<br><br>
+                                            
+                                            <strong><a href="https://www.cnbc.com/2017/08/09/japan-is-in-striking-distance-of-north-korea--heres-why-the-yen-is-rallying-anyway.html">August 9, 2017 - CNBC</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2017 - 6 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2017-6" id="heading2017-6">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Bloomberg
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                July 19, 2017
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2017-6" class="collapse" aria-labeledby="heading2017-6" data-parent="#news">
+                                        <div class="card-body">
+                                            The Wolver Hill group’s founder Ed Rogers discusses BOJ policy. Please listen to the entire interview here:<br><br>
+                                            
+                                            <strong><a href="https://www.bloomberg.com/news/videos/2017-07-19/rogers-investment-kuroda-will-persist-with-policy-video">July 19, 2017 - Bloomberg</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2017 - 5 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2017-5" id="heading2017-5">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Bloomberg
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                July 4, 2017
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2017-5" class="collapse" aria-labeledby="heading2017-5" data-parent="#news">
+                                        <div class="card-body">
+                                            The Wolver Hill group’s founder Ed Rogers discusses his outlook Japan's multi-assets off the back of the Tokyo election. Please listen to the entire interview here:<br><br>
+                                            
+                                            <strong><a href="https://www.bloomberg.com/news/articles/2017-07-04/abe-s-defeat-is-a-huge-buy-signal-for-japan-ed-rogers-says">July 4, 2017 - Bloomberg</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2017 - 4 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2017-4" id="heading2017-4">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Reuters
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                June 23, 2017
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2017-4" class="collapse" aria-labeledby="heading2017-4" data-parent="#news">
+                                        <div class="card-body">
+                                            Edward J. Rogers, Chairman of AIMA Japan, commented on the macro situation in Japan in an interview with Reuters. The full article can be accessed at:<br><br>
+                                            
+                                            <strong><a href="https://www.reuters.com/article/global-markets-idUSL3N1JK04O">June 23, 2017 - Bloomberg</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2017 - 3 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2017-3" id="heading2017-3">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                AIMA Japan Annual Hedge Fund Forum 2017
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                June 21, 2017
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2017-3" class="collapse" aria-labeledby="heading2017-3" data-parent="#news">
+                                        <div class="card-body">
+                                            Edward J. Rogers, Chairman of AIMA Japan, delivered the opening remarks at the AIMA Japan Annual Forum 2017 in Tokyo on June 8th, 2017. Combined with the Educational Session held on June 7th, the 2017 Forum drew around 250 attendees across two days. The attendees, some of whom had travelled to Tokyo from around the region, included investment managers, institutional investors and service provider businesses. Some of the themes highlighted were the revitalisation of Tokyo as a financial center, recent reforms to corporate governance and stewardship rules and efforts to incentivise institutions to diversify away from government bonds. See more at:<br><br>
+                                            
+                                            <strong><a href="https://www.aima.org/events/flagship-aima-events/aima-japan-annual-forum.html">June 21, 2017 - AIMA Japan Annual Hedge Fund Forum 2017</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2017 - 2 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2017-2" id="heading2017-2">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Bloomberg
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                April 27, 2017
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2017-2" class="collapse" aria-labeledby="heading2017-2" data-parent="#news">
+                                        <div class="card-body">
+                                            Rogers Investment Advisors CEO and CIO Ed Rogers discusses Bank of Japan monetary policy and his outlook for the Japanese economy and equities. He speaks on "Bloomberg Daybreak: Australia”. Please watch the entire interview here:<br><br>
+                                            
+                                            <strong><a href="https://www.bloomberg.com/news/videos/2017-04-26/rogers-is-bullish-on-japanese-equities-video">April 27, 2017 - Bloomberg</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2017 - 1 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2017-1" id="heading2017-1">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                China Global Television
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                March 11, 2017
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2017-1" class="collapse" aria-labelledby="heading2017-1" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, founder of the Wolver Hill Group, was interviewed on China Global Television discussing Fukushima’s lasting impact on Japan’s economy.<br><br>
+                                            
+                                            <strong><a href="https://www.youtube.com/watch?v=KE3GiNOclTg&feature=youtu.be">March 11, 2017 - China Global Television</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 2016 -->
+                <div class="card rounded">
+                    <div class="card-header" data-toggle="collapse" data-target="#collapse2016" id="heading2016">
+                        <div class="row">
+                            <div class="col">2016</div>
+                        </div>
+                    </div>
+                    
+                    <div id="collapse2016" class="collapse" aria-labelledby="heading2016" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="accordion">
+                                <!-- News 2016 - 9 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2016-9" id="heading2016-9">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Bloomberg TV
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                September 21, 2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2016-9" class="collapse show" aria-labelledby="heading2016-9" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, CEO and founder of Rogers Investment Advisors, was interviewed on Bloomberg TV this morning, discussing the BOJ’s policy decisions and potential impact on the economy.<br><br>
+                                            
+                                            <strong><a href="http://www.bloomberg.com/news/videos/2016-09-21/boj-countdown-what-will-the-central-bank-do ">September 21, 2016 - Bloomberg TV</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2016 - 8 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2016-8" id="heading2016-8">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Bloomberg TV
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                August 30, 2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2016-8" class="collapse" aria-labelledby="heading2016-8" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, CEO and founder of Wolver Hill Group, was interviewed on Bloomberg TV this morning, discussing the economic outlook and reasons to be bullish on Japan.<br><br>
+                                            
+                                            <strong><a href="http://www.bloomberg.com/news/videos/2016-08-30/economic-outlook-reasons-to-be-bullish-on-japan">August 30, 2016 - Bloomberg TV</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2016 - 7 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2016-7" id="heading2016-7">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                CNBC
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                August 8, 2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2016-7" class="collapse" aria-labelledby="heading2016-7" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, CEO of Wolver Hill Group, appeared on CNBC to discuss structural changes in Japan's policy.<br><br>
+                                            
+                                            <strong><a href="http://video.cnbc.com/gallery/?video=3000541483&play=1">August 8, 2016 - CNBC</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2016 - 6 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2016-6" id="heading2016-6">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Bloomberg TV
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                July 28, 2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2016-6" class="collapse" aria-labelledby="heading2016-6" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, CEO of Wolver Hill Group, appeared on Bloomberg TV to discuss Abe's stimulus plans, Japan's economic outlook and BOJ policy.<br><br>
+                                            
+                                            <strong><a href="http://www.bloomberg.com/news/videos/2016-07-29/boj-decision-does-kuroda-have-to-act">July 28, 2016 - Bloomberg TV</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2016 - 5 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2016-5" id="heading2016-5">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                CNBC
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                July 6, 2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2016-5" class="collapse" aria-labelledby="heading2016-5" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, CEO of Wolver Hill Group, appeared on CNBC's Rundown on July 6th to discuss the recent trends in the Japanese market.<br><br>
+                                            
+                                            <strong><a href="http://video.cnbc.com/gallery/?video=3000532162">July 6, 2016 - CNBC</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2016 - 4 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2016-4" id="heading2016-4">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Opalesque TV
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                March 29, 2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2016-4" class="collapse" aria-labelledby="heading2016-4" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, CEO of Wolver Hill Group, was interviewed by Opalesque TV and spoke about his 3-decade career in Asia, about the philosophy behind creating Rogers Investment Advisors and about how the firm has been bridging the gap between Asia and the rest of the world by providing solutions for Asian Alternative Investment problems over the last ten years.<br><br>
+                                            
+                                            <strong><a href="http://www.opalesque.tv/hedge-fund-videos/ed-rogers/1">March 29, 2016 - Opales</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2016 - 3 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2016-3" id="heading2016-3">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                CNBC
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                March 15, 2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2016-3" class="collapse" aria-labelledby="heading2016-3" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, CEO of Wolver Hill Group, was interviewed by CNBC and spoke about the BOJ policy outlook.<br><br>
+                                            
+                                            <strong><a href="http://video.cnbc.com/gallery/?video=3000501556&play=1">March 15, 2016 - CNBC</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2016 - 2 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2016-2" id="heading2016-2">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                CNBC
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                February 10, 2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2016-2" class="collapse" aria-labelledby="heading2016-2" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, CEO of Wolver Hill Group, appeared on CNBC to discuss the recent events in the Japanese market.<br><br>
+                                            
+                                            <strong><a href="http://www.cnbc.com/asia-video/">February 10, 2016 - CNBC</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2016 - 1 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2016-1" id="heading2016-1">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                CNBC
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                January 29, 2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2016-1" class="collapse" aria-labelledby="heading2016-1" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, CEO of Wolver Hill Group, appeared on CNBC to discuss the outlook on the Japanese economy on the back of the recent economic statistics and the market volatility.<br><br>
+                                            
+                                            <strong><a href="http://video.cnbc.com/gallery/?video=3000489823&play=1">January 29, 2016 - CNBC</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 2015 -->
+                <div class="card rounded">
+                    <div class="card-header" data-toggle="collapse" data-target="#collapse2015" id="heading2015">
+                        <div class="row">
+                            <div class="col">2015</div>
+                        </div>
+                    </div>
+                    
+                    <div id="collapse2015" class="collapse" aria-labelledby="heading2015" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="accordion">
+                                <!-- News 2015 - 2 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2015-2" id="heading2015-2">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                CNBC
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                April 29, 2015
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2015-2" class="collapse show" aria-labelledby="heading2015-2" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers, CEO of Rogers Investment Advisors, discusses BOJ's policies in an interview with CNBC.<br><br>
+                                            
+                                            <strong><a href="http://video.cnbc.com/gallery/?video=3000375421">April 29, 2015 - CNBC</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- News 2015 - 1 -->
+                                <div class="card rounded">
+                                    <div class="card-header" data-toggle="collapse" data-target="#collapse2015-1" id="heading2015-1">
+                                        <div class="row">
+                                            <div class="col-6 text-left">
+                                                Opalesque
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                January 16, 2015
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="collapse2015-1" class="collapse" aria-labelledby="heading2015-1" data-parent="#news">
+                                        <div class="card-body">
+                                            Ed Rogers says Abenomics has contributed to a second wave of development in the Japanese hedge fund space.<br><br>
+                                            
+                                            <strong><a href="http://www.opalesque.com/654047/More_hedge_fund_candidates_in_Japan_thanks404.html">AJanuary 16, 2015 - Opalesque</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -336,293 +1220,104 @@
         <!-- Contact -->
         <div id="section-7"></div>
         <div id="contact" class="container-fluid new-section">
-            <!-- Map and Form -->
             <div class="row">
-                <!-- Map -->
-                <div class="col-lg-6">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.938684425901!2d114.15338501505282!3d22.280312385333982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404007ad44c62ef%3A0x988c796feb91488!2s29+Wyndham+St%2C+Central!5e0!3m2!1sen!2shk!4v1562555028892!5m2!1sen!2shk" width="100%" height="300vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div class="col-md-6 h-100">
+                    <!-- WHAMAL Information -->
+                    <div class="row">
+                        <div class="col">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.938684427802!2d114.15337965045435!3d22.280312385261986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404007ad44c62ef%3A0x988c796feb91488!2s29+Wyndham+St%2C+Central!5e0!3m2!1sen!2shk!4v1563846934674!5m2!1sen!2shk" width="100%" height="50%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="2">Wolver Hill Asset Management Asia Limited</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Address:</td>
+                                        <td>15th Floor LKF29, 29 Wyndham Street, Central, Hong Kong</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tel:</td>
+                                        <td>+852 3678 0678</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Email:</td>
+                                        <td><a href="mailto:info@wolverhill.com?Subject=Enquiry" target="_top">info@wolverhill.com</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                     
-                    <!-- Address -->
-                    <table class="table">
-                        <tbody>
-                            <tr>
-                                <td>Address:</td>
-                                <td>15th Floor Onfem Tower, 29 Wyndham Street, Central, Hong Kong</td>
-                            </tr>
-                            <tr>
-                                <td>Tel:</td>
-                                <td>+852 3678 0678</td>
-                            </tr>
-                            <tr>
-                                <td>Email:</td>
-                                <td><a href="mailto:info@wolverhill.com?Subject=Enquiry" target="_top">info@wolverhill.com</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
+<!--
+                    <div class="row">
+                        <div class="col">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.735184163784!2d139.74420261525816!3d35.6588955801995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbdeeaf8ceb%3A0xcd9ef470cbffedd8!2s3+Chome-4-30+Shibak%C5%8Den%2C+Minato-ku%2C+T%C5%8Dky%C5%8D-to+105-0011%2C+Japan!5e0!3m2!1sen!2spl!4v1459389877218" width="100%" height="50%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="2">Rogers Investment Advisors K.K.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Address:</td>
+                                        <td>32 Shiba Koen Building, 7Fl, 3-4-30 Shibakoen, Minato-ku Tokyo 105-0011</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tel:</td>
+                                        <td>813 4520 5580</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+-->
                 </div>
                 
-                <!-- Enquiry Form -->
-                <div class="col-lg-6">
-                    <h3 class="text-center">Enquiry Form</h3>
-                    <h5>Name</h5>
+                <!-- Enquiry Form-->
+                <div class="col-md-6">
+                    <div>Name</div>
                     <div class="form-row">
                         <div class="form-group col-sm-6">
-                            <input type="text" class="form-control" id="inputFirst" placeholder="First Name" required>
+                            <input type="text" class="form-control" id="first" placeholder="First Name" required>
                         </div>
                         <div class="form-group col-sm-6">
-                            <input type="text" class="form-control" id="inputLast" placeholder="Last Name" required>
+                            <input type="text" class="form-control" id="last" placeholder="Last Name" required>
                         </div>
                     </div>
-                    <h5>Email</h5>
+                    <div>Email</div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="inputEmail" placeholder="email@example.com" required>
+                        <input type="email" class="form-control" id="email" placeholder="email@example.com" required>
                     </div>
-                    <h5>Message</h5>
+                    <div>Message</div>
                     <div class="form-group">
-                        <textarea class="form-control" id="inputMessage" rows="4" placeholder="Message" required></textarea>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Please enter your message here." required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-dark">Submit</button>
+                    <div class="text-right">
+                        <button type="submit" class="btn btn-dark">Submit</button>
+                    </div>
                 </div>
             </div>
         </div>
         
         <footer id="footer">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-6 text-left align-self-center">
-                        <p>&copy; 2019 Wolver Hill Asset Management Asia Limited</p>
+                <div class="row text-lg-left text-center">
+                    <div class="col-lg-10 align-self-center">
+                        &copy; 2019 Wolver Hill Asset Management Asia Limited
                     </div>
-                    <div class="col-6 align-self-center text-right">
-                        <p><a href="#" data-toggle="modal" data-target="#disclaimer">Disclaimer</a>&emsp;&emsp;&emsp;<a href="#privacy" data-toggle="modal" data-target="#privacy">Privacy</a></p>
+                    <div class="col-lg-1 align-self-center">
+                        <button type="button" class="btn btn-success">Disclaimer</button>
+                    </div>
+                    <div class="col-lg-1 align-self-center">
+                        <button type="button" class="btn btn-success">Privacy</button>
                     </div>
                 </div>
             </div>
         </footer>
         
         <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
-    
-    <!-- Ed Rogers Bio -->
-    <div class="modal fade" id="ed_bio" tabindex="-1" role="dialog" aria-labelledby="edBio" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-md" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="col modal-title text-center" id="edContent">Ed Rogers</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Ed was previously Deutsche Bank Tokyo’s head of Prime Services sales and a member of DB Tokyo’s Equities Management committee. Prior to Deutsche Bank, Ed was a proprietary trader at Merrill Lynch in London, specializing in yield enhancement and corporate action arbitrage trades. Ed received a BA in History from Princeton University in 1987, and an MBA from Georgetown University in 1999.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Ken Chuen Bio -->
-    <div class="modal fade" id="ken_bio" tabindex="-1" role="dialog" aria-labelledby="kenBio" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-md" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="col modal-title text-center" id="kenContent">Ken Chuen</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Ken joined WHAMAL in 2015, and he oversees all business functions of the Hong Kong operations. Ken was previously the Chief Operating Officer at Matchpoint Investment Management Group where he oversaw all the business functions including the fund and Group’s operations, finance, human resources, technology, investor relations and compliance. Prior to joining Matchpoint, Ken worked at Deephaven Capital where he led the middle- office operations and trading support for their Hong Kong office. Prior to that, Ken held a similar role at Gandhara Advisors Asia. From 2005 until 2007, Ken worked at UBS Investment Bank where he had overall responsibility for the middle office operations of the cash equity proprietary desk, and for monitoring operational risks within the team. Ken started his career with PricewaterhouseCoopers as a tax associate with a focus on US and HK taxation. Ken holds a double degree in Commerce &amp; Economics from Monash University, Melbourne and the designation of Chartered Alternative Investment Analyst (CAIA).</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- John Inamine Bio -->
-    <div class="modal fade" id="john_bio" tabindex="-1" role="dialog" aria-labelledby="johnBio" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-md" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="col modal-title text-center" id="johnContent">John Inamine</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>John oversees risk across the firm’s business lines. Most recently, Managing Director, Risk Management, at Nezu Asia, John was previously at SPARX Asset Management where he built up the fund of funds business from $50 million in AUM to $800 million, and later served as Head of Alternative Investments in Tokyo. Prior to that, John traded equity derivatives, beginning at O’Connor and Associates in Chicago, then at SBC Warburg in Tokyo where he ran the Japanese convertibles bonds book, and later at Deutsche Bank where he headed the Japanese convertible bonds trading and sales team. John also worked as an auditor for Arthur Young and Company after graduating from The Wharton School of the University of Pennsylvania and prior to obtaining an MBA from The Haas School of Business at the University of California, Berkeley.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Sandeep Mand Bio -->
-    <div class="modal fade" id="sandeep_bio" tabindex="-1" role="dialog" aria-labelledby="sandeepBio" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-md" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="col modal-title text-center" id="sandeepContent">Sandeep Mand</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Sandeep joined WHAMAL in 2017 to focus on business development and bring risk oversight experience to the group. He has close to 28yrs experience in the Fixed Income markets having spent 22yrs in Japan before moving to Hong Kong as Head of Rates Sales &amp; Trading Asia (ex. Japan) for Mitsubishi UFJ Securities where he was responsible for building out their nascent rates platform. Prior to this he was a Managing Director at Societe Generale in Tokyo in a similar capacity. His experience covers not only the front office sales and trading functions but also the legal, regulatory, compliance, finance, IT, and operational aspects of running a cross-border Asian business. Sandeep holds a BEng in Avionics from Queen Mary College, London and a MSc. in Management Science from Imperial College, London.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Len Umantz Bio -->
-    <div class="modal fade" id="len_bio" tabindex="-1" role="dialog" aria-labelledby="lenBio" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-md" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="col modal-title text-center" id="lenContent">Len Umantz, PhD, CAIA</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Len was most recently an Executive Director at Morgan Stanley New York’s Securitized Products Group where he worked on relative value and capital structure arbitrage strategies in credit and mortgage derivatives and oversaw development of quantitative models for mortgage-backed securities trading. Prior to that, Mr. Umantz worked in fixed income and foreign exchange derivatives trading at Susquehanna International Group in London, where he was a part of a global exotics / hybrids trading desk covering Europe, Japan, and Asia. Len holds a PhD in Finance from Stanford University and an MS in Mathematics from Northwestern. During his doctoral studies he worked for Goldman Sachs Asset Management in New York and Bill Sharpe’s Financial Engines in Palo Alto.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Takio Sato Bio -->
-    <div class="modal fade" id="takio_bio" tabindex="-1" role="dialog" aria-labelledby="takioBio" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-md" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="col modal-title text-center" id="takioContent">Takio Sato</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Prior to joining Rogers investment Advisors, Takio was responsible for relationship management of the Alternative Investment Services business for the entire APAC region at the Bank of New York Mellon. After joining BNYM in Tokyo in 2012, he later moved to their Hong Kong office being based there until April 2019. Prior to that, from 2006 to 2012, he was a Director / General Manager based in Singapore for United Managers Japan, a multi manager hedge fund platform, and he was responsible for all daily operations as the investment manager of the various funds on the platform. He started his career at Daiwa Securities in Tokyo and was later transferred to their Singapore office to run their listed derivatives desk as well as working at ABN AMRO and Credit Suisse focusing on providing various derivatives products to hedge funds. Takio majored in International Politics and Economics and holds a BA in Economics from Aoyama Gakuin University.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Disclaimer Agreement -->
-    <div class="modal fade" id="disclaimer" tabindex="-1" role="dialog" aria-labelledby="disclaimerContent" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="col-12 modal-title text-center" id="disclaimerContent">Disclaimer</h5>
-                </div>
-                <div class="modal-body">
-                    <div class="col-12 text-center">
-                        <a class="d-lg-none" href="#close"><button type="button" class="btn btn-success">Scroll to bottom</button></a>
-                    </div>
-                    
-                    <p>This website contains information about Wolver Hill Asset Management Asia Limited ("WHAMAL") and the products and/or funds offered by WHAMAL. This website is not directed to any person in any jurisdiction where the publication or availability of the WHAMAL website is prohibited. Persons in respect of whom such prohibitions apply must not access the WHAMAL website.</p>
-                    <p>The information provided on this website should not be considered as an offer, or solicitation, to deal in any of the investments mentioned herein, by anyone in any jurisdiction in which such offer or solicitation would be unlawful or in which the person making such offer or solicitation is not qualified to do so or to anyone to whom it is unlawful to make such offer or solicitation. Those who access this website do so on their own initiative and are therefore responsible for observing all applicable laws and regulations of their relevant jurisdictions before proceeding to access the information contained herein.</p>
-                    <p>The information provided on the WHAMAL website is not intended for distribution to, or use by, any person or entity in any jurisdiction or country that would subject WHAMAL or its affiliates to any registration requirement within such jurisdiction or country.</p>
-                    <p>While WHAMAL takes care to ensure that the information on this website is accurate and up to date at the time of publishing, the information on this website is provided "as is" without any warranty of any kind. WHAMAL shall not be liable for any losses or damages relating to adequacy, accuracy or completeness of any information on this website or the use of such information. The information on this website is being provided strictly for informational purposes only and does not constitute investment advice. All information contained herein may be changed or amended without prior notice. Also, WHAMAL is not responsible for any errors or omissions relating to information provided by any third party.</p>
-                    <p>Investment involves risks. The fund does not give any guarantees. Past performance is not a reliable indicator of its future performance. WHAMAL does not guarantee the performance of any WHAMAL funds, the return of an investor’s capital nor any specific rate of return. Value of investments can go down as well as up. Prior to investing, please refer to the Explanatory Memorandum of the fund for details including risk factors. You should ensure you fully understand the risks associated with the investment and should also consider your own investment objective and risk tolerance. If you have any queries, please contact your financial advisor and seek professional advice.</p>
-                    <p>Nothing on this website constitutes a distribution solicitation, invitation, recommendation or offer to purchase a product offered by WHAMAL or any WHAMAL funds or as the basis for any investment decision.</p>
-                    <p><span class="heading">Cookies</span><br>WHAMAL does not accept responsibility for any interference or damage to your own computer system, the records stored thereon or those of any other person, which arises in connection with your use of this website or any linked website. A cookie is utilized on this website. It allows your browser to check whether you have read and agreed to these Terms. The cookie does not contain any personally identifiable information. Unfortunately, if your browser is set up to reject cookies you will not be able to see the content of this website. All copyrights reserved and its contents including all information, graphics, code, text and design in this website are owned by WHAMAL and should not be reproduced or distributed without its permission. These Terms are governed exclusively by the laws of Hong Kong Special Administrative Region and constitute the entire agreement between you and WHAMAL in relation to the use of this website.</p>
-                    <p><span class="heading">Hyperlinks</span><br>When you access certain links on our website you may leave our website. WHAMAL has not reviewed any of the websites linked to our website and does not endorse or accept any responsibility for the content of such websites nor the products, services or other items offered through these websites.</p>
-                    
-                    <p><span class="heading">Privacy Policy and Data Protection</span><br>WHAMAL is committed to maintaining your personal data—that is, information relating to a living individual from whom it is practicable for the identity of the individual to be directly or indirectly ascertained- in accordance with the requirements of the Personal Data (Privacy) Ordinance and will take all reasonable steps to ensure that your personal data is kept secure against unauthorized access, loss, disclosure and destruction. Please be aware that this Statement replaces any notice or statement of similar nature issued by the Company previously, pursuant to the Personal Data (Privacy) Ordinance (the “Ordinance”). WHAMAL’s more detailed privacy policy document is detailed here.</p>
-                    <p><span class="heading">Limitation of Liability on System and Transmission over the Internet</span><br>
-                    WHAMAL or its affiliates, or any of their respective directors, officers, employees or agents shall not liable for any event of Force Majeure, any virus or other harmful component affecting the website or any server that operates it, any interception of data or communications in connection with the public nature of the internet, any problems or technical malfunction of any telephone network or lines, computer online systems, servers or providers, computer equipment, software failure of any email or entry to be received on account of technical problems or traffic congestion on the Internet, telephone lines or at any website, or any combination thereof, including any loss of opportunities or profit arising from any time delay, system disruption or interruption, transmission blackout, delayed transmission or any incorrect data transmission, or any injury or damage to the computer or other electronic devices or property of any person accessing their website or any other person related to or resulting from accessing this website or downloading any materials from this website.</p>
-                    <p><span class="heading">By clicking on "Accept", you confirm that you have read, understood and agreed to the above terms of use.</span></p>
-                    <p>Wolver Hill Asset Management Asia Limited is regulated by the Securities and Futures Commission of Hong Kong. This website has not been reviewed by the Securities and Futures Commission of Hong Kong and may contain information of non-SFC authorized funds. Issued by Wolver Hill Asset Management Asia Limited.</p>
-                    
-                    <div id="close" class="col-12 text-center">
-                        <button type="button" class="align-self-center  btn btn-success" data-dismiss="modal">Accept</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Privacy Statement -->
-    <div class="modal fade" id="privacy" tabindex="-1" role="dialog" aria-labelledby="privacyContent" aria-hidden="true">
-         <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-            <div class="modal-content">
-                 <div class="modal-header">
-                    <h5 class="col modal-title text-center" id="edContent">Privacy Statement</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p class="heading">Wolver Hill Asset Management Asia Limited Personal Information Collection Statement Relating to the Hong Kong Personal Data (Privacy) Ordinance (Chapter 486 of the Laws of Hong Kong).</p>
-                    <p><span class="heading">Wolver Hill Asset Management Asia Limited</span> (the “Company”) is committed to maintaining your personal data—that is, information relating to a living individual from whom it is practicable for the identity of the individual to be directly or indirectly ascertained- in accordance with the requirements of the Personal Data (Privacy) Ordinance and will take all reasonable steps to ensure that your personal data is kept secure against unauthorized access, loss, disclosure and destruction. Please be aware that this Statement replaces any notice or statement of similar nature issued by the Company previously, pursuant to the Personal Data (Privacy) Ordinance (the “Ordinance”).</p>
-                    <p class="heading">Obligation to Disclose Personal Data</p>
-                    <p>Unless otherwise stated, you must supply personal data requested by us in connection with the opening or continuation of accounts with us by you or by companies related to you, the provision of services or products by us, or the use of certain features of our website, such as the submission of applications for employment. Failure to supply such data may result in the Company being unable to open or maintain such account(s) or provide services or products to you or companies related to you or to process an employment application as we may not have sufficient information.</p>
-                    <p>The purposes and retention of the information:</p>
-                    <ol>
-                        <li>From time to time, it is necessary for clients and various other individuals (“data subjects”) to supply the Company with data in connection with various matters such as account opening or continuations, or provision of services to clients and other individuals or compliance with any laws or guidelines issued by regulatory or other authorities.</li>
-                        <li>Such data may include, but not limited to, data collected from data subjects in the ordinary course of the continuation of the company’s relationship with them, for example, when clients open account, write cheques, transfer funds, effect transactions, attend seminar/events or generally communicate verbally or in writing with the Company.</li>
-                        <li>The purposes for which data relating to a data subject may be used will vary depending on the nature of data subject’s relationship with the Company. They may comprise any or all of the following purposes:
-                            <ul>
-                                <li>The processing of application for an account with the Company;</li>
-                                <li>The daily operation of the services;</li>
-                                <li>Marketing financial services or related products</li>
-                                <li> Meeting the disclosure and compliance requirements under any laws or regulatory requirements applicable to the Company</li>
-                                <li>Evaluating the candidacy of applicants for employment, and, where an application is successful, all aspects of our human resources functions</li>
-                            </ul>
-                        </li>
-                        <li>All personal data, whether provided by you or another person, and whether provided before or after the date you receive this statement, may be provided to, exchanged with or transferred to, in the following circumstances as we may consider necessary whether the recipients are inside of or external to Hong Kong.
-                            <ul>
-                                <li>Third party disclosures may include sharing such information with non-affiliated companies who perform support services on our behalf including those that provide professional, legal or accounting advice to the Company.</li>
-                                <li>We may also disclose your personal information to fulfil your instruction or pursuant to your express consent.</li>
-                                <li>In the case of applicants for employment or current employees, we may provide applicants’ personal data to entities that provide services to us relating to human resources processes (which may include pre-employment or other background checking).</li>
-                                <li>Finally, under limited circumstances, your personal information may be disclosed to third parties as permitted by, or to comply with, applicable laws and regulations.</li>
-                            </ul>
-                        </li>
-                    </ol>
-                    <p class="heading">Use of Data in Direct Marketing:</p>
-                    <ol>
-                        <li>The Company intends to use the data subject’s data in direct marketing and the Company requires the data subject’s consent (which includes an indication of no objection) for that purpose. The specific requirement regarding data subject’s consent (which includes an indication of no objection) under Part VIA of the Personal Data (Privacy) Ordinance 2012 shall take effect from 1st April 2013.</li>
-                        <li>Pursuant to the Ordinance, direct marketing activities conducted by the Company may include but not limited to the following:
-                            <ul>
-                                <li>offering, or advertising of the availability, of goods, facilities or services; or</li>
-                                <li>sending information or goods, addressed to specific persons by name, by mail, fax, electronic mail or other means of communication; or</li>
-                                <li>making telephone calls to specific person.</li>
-                            </ul>
-                        </li>
-                        <li>In this connection, please note that: the name, contact details, products and services portfolio information, transaction pattern and behaviour, financial background and demographic data of the data subject held by the Company from time to time may be used by the Company in direct marketing.</li>
-                        <li>In addition to marketing services, products the Company is allowed to provide, the Company also intends to provide the data collected from data subjects to third parties (as permitted by, or to comply with, applicable laws and regulations) for use by them in marketing those services, products and subjects, and the Company requires the data subject’s written consent (which includes an indication of no objection) for that purpose.</li>
-                        <li>If data subject does not wish the Company to use or provide to other persons his data for use in direct marketing as described above, the data subject may exercise his opt-out right by notifying the Company.</li>
-                    </ol>
-                    <p class="heading">Under the Ordinance, any individual has the right:</p>
-                    <ol>
-                        <li>To check whether the Company holds data about him or her, and of access to such data;</li>
-                        <li>To require the Company to correct any data relating to him or her which is accurate</li>
-                        <li>To object to the use of his/her personal data for marketing purposes and the Company shall not use his/her personal data for marketing purposes after he/she communicates his/her objection to the Company.</li>
-                    </ol>
-                    <p>The holder of the personal data may requests to access to data or correction data. Such a request to be addressed as follows:</p>
-                    <p>The Compliance Officer<br>Wolver Hill Asset Management Asia Limited<br>15th Floor Onfem Tower<br>29 Wyndham St, Central, Hong Kong</p>
-                    <p>Nothing in this statement shall limit the rights of any data subject under the Ordinance.</p>
-                    
-                    <div class="col-12 text-center">
-                        <button type="button" class="align-self-center  btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Show disclaimer -->
-    <script type="text/javascript">
-        /* Script checks if it is user's first visit */
-//        var visited = localStorage.getItem('visited');
-        $(document).ready(function(){
-//            if (visited == null) {
-//                localStorage.setItem('visited', 1);
-//                
-                /* Show modal*/
-                $("#disclaimer").modal('show');    
-//            }
-        });
-    </script>
 </html>
