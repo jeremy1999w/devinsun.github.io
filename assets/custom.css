@@ -129,7 +129,9 @@ body {
 /* Services */
 #services {
     min-height: 100%;
-    background-color: var(--light-gray);
+    background-image: url(/images/qbkls.png);
+    background-repeat: repeat;
+/*    background-color: var(--light-gray);*/
     color: var(--dark);
 }
 
@@ -176,7 +178,9 @@ body {
 
 /* Why */
 #why {
-    background-color: var(--light-gray);
+    background-image: url(/images/qbkls.png);
+    background-repeat: repeat;
+/*    background-color: var(--light-gray);*/
     color: var(--dark);
 }
 
@@ -293,7 +297,7 @@ body {
 #team {
     background-color: var(--wh-green);
     color: var(--light-gray);
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 #team img {
@@ -308,7 +312,7 @@ body {
 
 #team .name {
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.35rem;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -354,7 +358,9 @@ body {
 
 /* News */
 #news {
-    background-color: var(--dark);
+    background-image: url(/images/ep_naturalblack.png);
+    background-repeat: repeat;
+/*    background-color: var(--dark);*/
 }
 
 #news .card {
