@@ -297,7 +297,6 @@ body {
 #team {
     background-color: var(--wh-green);
     color: var(--light-gray);
-    font-size: 1em;
 }
 
 #team img {
@@ -307,12 +306,18 @@ body {
 }
 
 #team button {
-    padding: 0.25rem;
+    padding: 0.5rem;
+    margin: 0.2rem;
 }
 
 #team .name {
     font-weight: 500;
     font-size: 1.35rem;
+}
+
+#team .team-body {
+    font-size: 1rem;
+    padding-bottom: 2rem;
 }
 
 @media screen and (max-width: 767.98px) {
