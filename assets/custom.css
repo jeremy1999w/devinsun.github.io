@@ -1,12 +1,24 @@
 /* Global */
 :root {
-    --wh-green: #4eb055;
+    --wh-green: #3e8e45;
     --light-gray: rgb(248, 249, 250);
     --dark: #1a1a1a;
+    --navbar-height: 64.74px;
+}
+
+html {
+    font-size: 14px;
 }
 
 body {
-    padding-top: 74px;
+    position: relative;
+    padding-top: var(--navbar-height);
+    color: var(--dark);
+}
+
+#section-1, #section-2, #section-3, #section-4, #section-5, #section-6, #section-7 {
+    padding-top: var(--navbar-height);
+    margin-top: calc(-1 * var(--navbar-height));
 }
 
 .new-section {
@@ -19,8 +31,18 @@ body {
     padding-bottom: 1.5rem;
 }
 
+.btn-success {
+    background-color: var(--wh-green);
+    border-color: var(--wh-green);
+}
+
 .navbar-brand img {
     height: 3rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var(--light-gray);
 }
 
 /* Landing */
@@ -33,10 +55,75 @@ body {
     min-height: 100%;
     background-color: var(--wh-green);
     color: var(--light-gray);
+    padding: 3rem 5rem;
 }
 
-.overview-left-text {
-    font-weight: bold;
+.o-1 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: -1rem;
+}
+
+.o-2 {
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.o-3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#overview .overview-body {
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 2;
+}
+
+@media screen and (max-width: 767.98px) {
+    .o-1 {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    
+    .o-2 {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+    
+    .o-3 {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+    
+    #overview .overview-body {
+        padding-top: 2rem;
+        font-size: 1.05rem;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .overview-body {
+        font-size: 0.95rem;
+        font-weight: 200;
+        line-height: 1.85;
+    }
+    
+    .o-1 {
+        font-size: 2.5rem;
+        font-weight: 250;
+        margin-bottom: -1rem;
+    }
+    
+    .o-2 {
+        font-size: 5rem;
+        font-weight: 500;
+    }
+    
+    .o-3 {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
 }
 
 /* Services */
@@ -56,10 +143,32 @@ body {
     margin-bottom: 3rem;
 }
 
+@media screen and (max-width: 767.98px) {
+    #services .card {
+        margin-bottom: 2rem;
+        font-size: 1.05rem;
+    }
+    
+    #services img {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .new-section {
+        padding: 2.5rem 7.5rem; 
+    }
+    
+    #services .card {
+        margin-bottom: 1rem;
+    }
+}
+
 /* Separator */
 #separator {
     
 }
+
 /*
 #separator img {
     width: 100vw;
@@ -75,10 +184,116 @@ body {
     margin-bottom: 3rem;
 }
 
+@media screen and (max-width: 767.98px) {
+    #why .card {
+        margin-bottom: 2rem;
+        font-size: 1.05rem;
+    }
+    
+    #why img {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    #why .card {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Due Diligence */
+
+#diligence {
+    padding: 6rem;
+    background-image: url("/images/connectwork.png");
+    background-repeat: repeat;
+    color: var(--light-gray);
+}
+
+#diligence .dd-title {
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+
+#diligence .title-text {
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+#diligence .dd {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 1rem;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+#diligence .dd-row {
+    padding-bottom: 2rem;
+}
+
+#diligence .title {
+    padding: 1.5rem 1.5rem 0.75rem 1.5rem;
+    font-weight: bold;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+#diligence .body {
+    padding: 0 2rem 1.5rem 2rem;
+    text-align: justify;
+    font-size: 1.05rem;
+    font-weight: 250;
+}
+
+@media screen and (max-width: 767.98px) {
+    #diligence {
+        padding: 3rem;
+    }
+    
+    #diligence .dd-title {
+        padding-bottom: 1rem;
+    }
+    
+    #diligence .title-text {
+        font-size: 1.15rem;
+        padding-bottom: 1rem;
+    }
+    
+    #diligence .dd-row {
+        padding-bottom: 0;
+    }
+    
+    #diligence .body {
+        padding: 0 1rem 1rem 1rem;
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    #diligence .title-text {
+        padding-bottom: 2rem;
+    }
+    
+    #diligence .dd-row {
+        padding-bottom: 0;
+    }
+    
+    #diligence .title {
+        font-size: 2rem;
+    }
+    
+    #diligence .body {
+        font-size: 1.5rem;
+    }
+}
+
 /* Team */
 #team {
     background-color: var(--wh-green);
     color: var(--light-gray);
+    font-size: 0.9em;
 }
 
 #team img {
@@ -87,9 +302,53 @@ body {
     filter: grayscale(100%);
 }
 
-@media screen and (max-width: 768px) {
+#team button {
+    padding: 0.25rem;
+}
+
+#team .name {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 767.98px) {
     #team .col-md-6 {
         padding: 0.5rem;
+    }
+    
+    #team img {
+        width: 50%;
+    }
+    
+    #team .name {
+        font-size: 1.5rem;
+    }
+    
+    #team button {
+        margin: 0.25rem;
+    }
+    
+    #team .team-body {
+        font-size: 1.25rem;
+        font-weight: 200;
+        padding-bottom: 0.35rem;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    #team .name {
+        font-size: 2rem;
+    }
+    
+    #team button {
+        font-size: 1.35rem;
+        margin: 0.35rem;
+    }
+    
+    #team .team-body {
+        font-size: 1.5rem;
+        font-weight: 250;
+        padding-bottom: 1rem;
     }
 }
 
@@ -98,13 +357,17 @@ body {
     background-color: var(--dark);
 }
 
+#news .card {
+    cursor: pointer;
+}
+
 /* Contact */
 #contact {
     height: 100%;
     color: var(--dark);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.98px) {
     #contact table {
         margin-bottom: 10rem;
     }
@@ -118,5 +381,23 @@ body {
 
 #footer button {
     margin: 0.5rem;
+    padding: 0.3rem;
 }
+
+#disclaimer {
+    font-size: 0.8rem;
+}
+
+#disclaimer .section {
+    font-weight: bold;
+    text-align: center;
+}
+
+#privacy {
+    font-size: 0.7rem;
+}
+
+#privacy .section {
+    font-weight: bold;
+    text-align: center;
 }

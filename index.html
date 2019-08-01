@@ -21,7 +21,7 @@
     
     <header>
         <!-- Navigation bar -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             
             <!-- Logo -->
             <a class="navbar-brand">
@@ -41,22 +41,22 @@
                         <a class="nav-link" href="#section-1">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="section-2">Overview <span class="sr-only">(overview)</span></a>
+                        <a class="nav-link" href="#section-2">Overview <span class="sr-only">(overview)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="section-3">Services <span class="sr-only">(services)</span></a>
+                        <a class="nav-link" href="#section-3">Services <span class="sr-only">(services)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="section-4">Why Wolver Hill <span class="sr-only">(why wolver hill)</span></a>
+                        <a class="nav-link" href="#section-4">Why Wolver Hill <span class="sr-only">(why wolver hill)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="section-5">Team <span class="sr-only">(team)</span></a>
+                        <a class="nav-link" href="#section-5">Team <span class="sr-only">(team)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="section-6">News <span class="sr-only">(news)</span></a>
+                        <a class="nav-link" href="#section-6">News <span class="sr-only">(news)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="section-7">Contact <span class="sr-only">(contact)</span></a>
+                        <a class="nav-link" href="#section-7">Contact <span class="sr-only">(contact)</span></a>
                     </li>
                 </ul>
             </div>
@@ -64,31 +64,29 @@
     </header>
     
     <!-- Body -->
-    <body>
+    <body data-spy="scroll" data-target="#navbar" offset="64.74">
         <!-- Landing -->
-<!--
         <div id="section-1"></div>
         <div id="landing">
-            <img class="img-fluid" src="images/splash.jpg">
+            <img class="img-fluid" src="images/landing.jpg">
         </div>
--->
    
         <!-- Overview -->
         <div id="section-2"></div>
         <div id="overview" class="container-fluid new-section">
             <div class="row h-100">
-                <div class="col-md-6 align-self-center" >
+                <div class="col-md-5 align-self-center">
                     <div class="row">
-                        <div class="col text-md-right text-center overview-left-text" style="font-size: 1.75em">Welcome to</div>
+                        <div class="col text-md-right text-center overview-left-text o-1">Welcome to</div>
                     </div>
                     <div class="row text-right">
-                        <div class="col text-md-right text-center overview-left-text" style="font-size: 3.52em">Wolver Hill</div>
+                        <div class="col text-md-right text-center overview-left-text o-2">Wolver Hill</div>
                     </div>
                     <div class="row">
-                        <div class="col text-md-right text-center overview-left-text" style="font-size: 1.22em; ">Asset Management Asia Limited</div>
+                        <div class="col text-md-right text-center overview-left-text o-3">Asset Management Asia Limited</div>
                     </div>
                 </div>
-                <div class="col-md-6 text-justify align-self-center">
+                <div class="col-md-7 text-justify align-self-center overview-body">
                     Wolver Hill Asset Management Asia Limited (“WHAMAL”) is part of the Wolver Hill group – an Asia-focused alternative investment asset management and advisory group established by Edward J. Rogers in 2006. In cooperation with its Tokyo-based affiliate Rogers Investment Advisors, WHAMAL provides best-in-class hedge fund platform, consulting and advisory services for alternative investment managers.
                 </div>
             </div>
@@ -112,7 +110,7 @@
                             </div>
                             <div class="row">
                                 <div class="col text-justify">
-                                    Our platform delivers innovative and cost-efficient solutions for emerging fund managers in Asia by providing full support for setting up new hedge funds businesses including the selection of top tier key service providers (Lawyers, Prime Brokers, Administrators, Directors or Trustees, etc.), coordination between all relevant parties, managing completion of fund documents, and the registration of all relevant vehicles. As a result of our team’s seasoned expertise and track record, can launch funds in a time and cost efficient manner.
+                                    Wolver Hill delivers innovative and cost-efficient solutions for emerging fund managers in Asia by providing full support for setting up new hedge funds businesses including access to top tier key service providers (Lawyers, Prime Brokers, Administrators, Auditors, Directors or Trustees, etc.), coordination between all relevant parties, managing completion of fund documents, and the registration of all relevant vehicles. As a result of our team’s seasoned expertise and track record, Wolver Hill can launch funds in a time and cost efficient manner.
                                 </div>
                             </div>
                         </div>
@@ -129,7 +127,7 @@
                             </div>
                             <div class="row">    
                                 <div class="col text-justify">
-                                    Managers have access to our regulatory coverage either in Hong Kong through WHAMAL (licensed by the Hong Kong SFC) and / or Tokyo through Rogers Investment Advisors K.K. (registered with the Kanto Finance Bureau as a registered investment advisor). Our team provides on-going operational support for hedge funds. These services are supported and facilitated by a highly experienced team, institutional-grade technology for day-to-day middle- and back-office operations, outsourced COO-level support, and a multilingual team. 
+                                    Managers have access to regulatory coverage either in Hong Kong through WHAMAL (regulated by the Securities &amp; Futures Commission, Hong Kong) and / or Tokyo through Rogers Investment Advisors K.K. (registered with the Kanto Finance Bureau as a registered investment advisor). Our team provides on-going operational support for hedge funds that are supported and facilitated by a highly experienced multilingual team, institutional-grade technology for day-to-day middle- and back-office operations, and a highly experienced COO. 
                                 </div>
                             </div>
                         </div>
@@ -146,7 +144,7 @@
                             </div>
                             <div class="row">
                                 <div class="col text-justify">
-                                    The firm’s top-tier supporting infrastructure including control, compliance and technology allows managers to focus on strategy execution. We can provide fully furnished and equipped offices in central locations for immediate use by fund managers in Hong Kong or Tokyo. WHAMAL has also invested in institutional-standard IT infrastructure, including a cloud-based Portfolio Management System – Beauchamp. All users in our office are supported by Principle One, a well-known IT consultant in the hedge fund industry in Hong Kong.
+                                    The firm’s top-tier supporting infrastructure including control, compliance and technology allows managers to focus on strategy &amp; execution. We are able to provide furnished and equipped offices in central locations for immediate use by fund managers in Hong Kong or Tokyo. WHAMAL has invested in institutional-standard IT infrastructure, central to which is our Portfolio Management System – Beauchamp. All users in our office are supported by Principle One, a well-known IT consultant within the hedge fund industry in Hong Kong.
                                 </div>
                             </div>
                         </div>
@@ -172,7 +170,7 @@
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_world.svg" alt="">
+                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_bolt.svg" alt="">
                             <div class="row">
                                 <div class="col service">
                                     Efficient Execution
@@ -180,7 +178,7 @@
                             </div>
                             <div class="row">
                                 <div class="col text-justify">
-                                    By creating an “Economy of Scale,” our services significantly reduce time and cost for new fund launches in Asia. The high standard and efficiency of our operational services and procedures gives us a competitive edge in an industry in which these such solutions are crucial to manager success. Our team strives to achieve “operational alpha” for large- and small-scale managers. 
+                                    By creating an “Economy of Scale,” our services are able to significantly reduce time and cost for new fund launches in Asia. Our skilled operational services and efficient procedures give our firm a competitive edge in an industry where such solutions are crucial to manager success. The Wolver Hill team strives to achieve “Operational Alpha” for all our partners.
                                 </div>
                             </div>
                         </div>
@@ -197,7 +195,7 @@
                             </div>
                             <div class="row">
                                 <div class="col text-justify">
-                                    With offices in Hong Kong and Tokyo, the firm offers a bespoke service. Managers can choose to be based in either location. In addition, managers are not restricted to any particular service providers, including Fund Administrators, Trade Execution Systems or 3rd Party Marketers. Furthermore, managers’ proprietary research remains their intellectual property.
+                                    With offices in Hong Kong and Tokyo, the firm offers a bespoke service where managers can choose to be based in either location. In addition, we operate an open architecture service provider ecosystem so managers are not restricted to use any particular service providers. Furthermore, managers’ proprietary research and track records remain their intellectual property.
                                 </div>
                             </div>
                         </div>
@@ -206,7 +204,7 @@
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_case.svg" alt="">
+                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_key.svg" alt="">
                             <div class="row">
                                 <div class="col service">
                                     Expanded Opportunities
@@ -214,7 +212,7 @@
                             </div>
                             <div class="row">
                                 <div class="col text-justify">
-                                    Our secure, vetted and risk-managed environment allows investors ranging from the largest US and European institutions to family offices/HNW individuals to access superior Asian-based alternative investment products. We seek to offer unique opportunities by taking advantage of the multi-trillion alternative investment flow moving into and out of Asia.
+                                    Our secure, vetted and risk-managed environment allows investors ranging from the largest US and European institutions to Family Offices / HNW individuals to access superior Asian-based alternative investment products. We seek to offer unique opportunities by taking advantage of the multi-trillion alternative investment flow moving into and out of Asia.
                                 </div>
                             </div>
                         </div>
@@ -235,7 +233,7 @@
                             </div>
                             <div class="row">
                                 <div class="col text-justify">
-                                    Operational issues that can greatly impact hedge fund manager returns behind the scenes can be addressed by our seasoned team of industry professionals based in Asia. The team uniquely combines decades of buy-side, sell-side, and service provider experience in Hedge Funds, Prime Brokerage and Asset Management. The Wolver Hill team offers high quality service.
+                                    Our seasoned team of industry professionals based can address operational &amp; business issues that may greatly impact hedge fund returns. The team uniquely combines decades of buy-side, sell-side, and service provider experience in Hedge Funds, Prime Brokerage and Asset Management. The Wolver Hill team provides high quality problem solving solutions.
                                 </div>
                             </div>
                         </div>
@@ -244,7 +242,7 @@
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_case.svg" alt="">
+                            <img class="mx-auto d-block card-icon" src="images/icons/SVG/basic_share.svg" alt="">
                             <div class="row">
                                 <div class="col service">
                                     Local Expertise
@@ -253,6 +251,70 @@
                             <div class="row">
                                 <div class="col text-justify">
                                    The team capitalizes on local knowledge and networks to develop a critical understanding of the key drivers of the industry and source essential relationships with major Prime Brokers, Administrators, Legal Firms and Software Providers. Additionally, our multilingual team consists of Japanese, Mandarin, and Cantonese speakers to best meet the needs of our clients.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Due Diligence -->
+        <div id="diligence" class="container-fluid new-section">
+            <div class="row">
+                <div class="col-lg-4 align-self-center description">
+                    <div class="row">
+                        <div class="col-12 text-center dd-title">
+                            Due Diligence
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 title-text text-justify">
+                            The Wolver Hill group consists of Wolver Hill Asset Management Asia Limited and Rogers Investment Advisors K.K., based in Hong Kong and Tokyo, respectively. The group’s two-fold approach to hedge fund solutions allows the firm to offer a bespoke service to its clients. Our due diligence research capabilities are able to offer investors the solutions to four common roadblocks: “Too Far, Too Foregin, Too Small, Too Expensive”. 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 align-self-center">
+                    <div class="row dd-row">
+                        <div class="col-lg-6">
+                            <div class="dd">
+                                <div class="title">
+                                    Too Far
+                                </div>
+                                <div class="body">
+                                    Asia is not a 14-hour flight away for us like it is for many U.S and European investors. From our offices in Tokyo and Hong Kong, we are able to offer real-time monitoring and interaction with our Asian managers and investments to ensure the highest quality of our service offerings.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="dd">
+                                <div class="title">
+                                    Too Foreign
+                                </div>
+                                <div class="body">
+                                    Multilingual and multicultural, we offer a linguistic and cultural arbitrage opportunity. Many competitors cannot conduct investment, operations or business due diligence in Japanese, Mandarin and Cantonese – giving us a significant, ongoing informational advantage.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row dd-row">
+                        <div class="col-lg-6">
+                            <div class="dd">
+                                <div class="title">
+                                    Too Small
+                                </div>
+                                <div class="body">
+                                    Asia represents 25% of the world's GDP and has been growing faster than any region in the world over the past 50 years. Even so, many investors have been unable to directly participate in this incredible growth story. Our strategic location opens the doors to Asian opportunities.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="dd">
+                                <div class="title">
+                                    Too Expensive
+                                </div>
+                                <div class="body">
+                                    Our two Asian offices are able to create significant cost advantages. Located in Hong Kong and Tokyo, the Wolver Hill group can conduct more cost-efficient onsite due diligence visits than our competitors, translating to superior research information and returns.
                                 </div>
                             </div>
                         </div>
@@ -272,47 +334,47 @@
             <div class="row justify-content-center">
                 <div class="col-lg-2 col-md-6 text-center">
                     <img class="mx-auto d-block" src="images/headshots/ed_rogers.jpg" alt="Ed Rogers">
-                    <div>Ed Rogers</div>
+                    <div class="name">Ed Rogers</div>
                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#ed_bio">Biography</button>
-                    <div>Responsible Officer<br>Chief Executive Officer<br>Executive Director</div>
+                    <div class="team-body">Responsible Officer<br>Chief Executive Officer<br>Executive Director</div>
                 </div>
                 <div class="col-lg-2 col-md-6 text-center">
                     <img class="mx-auto d-block" src="images/headshots/blank-profile.png" alt="Ken Chuen">
-                    <div>Ken Chuen</div>
+                    <div class="name">Ken Chuen</div>
                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#ken_bio">Biography</button>
-                    <div>Responsible Officer<br>Chief Operating Officer</div>
+                    <div class="team-body">Responsible Officer<br>Chief Operating Officer</div>
                 </div>
                 <div class="col-lg-2 col-md-6 text-center">
                     <img class="mx-auto d-block" src="images/headshots/john-inamine.png" alt="John Inamine">
-                    <div>John Inamine</div>
+                    <div class="name">John Inamine</div>
                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#john_bio">Biography</button>
-                    <div>Chief Risk Officer</div>
+                    <div class="team-body">Chief Risk Officer</div>
                 </div>
                 <div class="col-lg-2 col-md-6 text-center">
                     <img class="mx-auto d-block" src="images/headshots/sandeep_mand.jpeg" alt="sandeep Mand">
-                    <div>Sandeep Mand</div>
+                    <div class="name">Sandeep Mand</div>
                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#sandeep_bio">Biography</button>
-                    <div>Responsible Officer<br>Managing Director</div>
+                    <div class="team-body">Responsible Officer<br>Managing Director</div>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-2 col-md-6 text-center">
                     <img class="mx-auto d-block" src="images/headshots/len_umantz.png" alt="Len Umantz">
-                    <div>Len Umantz</div>
+                    <div class="name">Len Umantz</div>
                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#len_bio">Biography</button>
-                    <div>Responsible Officer<br>Head of Product Development</div>
+                    <div class="team-body">Responsible Officer<br>Head of Product Development</div>
                 </div>
                 <div class="col-lg-2 col-md-6 text-center">
-                    <img class="mx-auto d-block" src="images/headshots/blank-profile.png" alt="Fred Lee">
-                    <div>Fred Lee</div>
+                    <img class="mx-auto d-block" src="images/headshots/fred_lee.jpg" alt="Fred Lee">
+                    <div class="name">Fred Lee</div>
                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#fred_bio">Biography</button>
-                    <div>Head of Operations</div>
+                    <div class="team-body">Head of Operations</div>
                 </div>
                 <div class="col-lg-2 col-md-6 text-center">
-                    <img class="mx-auto d-block" src="images/headshots/blank-profile.png" alt="Charles Lee">
-                    <div>Charles Lee</div>
+                    <img class="mx-auto d-block" src="images/headshots/charles_lee.jpg" alt="Charles Lee">
+                    <div class="name">Charles Lee</div>
                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#charles_bio">Biography</button>
-                    <div>Business Analyst</div>
+                    <div class="team-body">Business Analyst</div>
                 </div>
             </div>
         </div>
@@ -425,7 +487,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        Lorem ipsum.
+                        Fred joined WHAMAL in 2016 and serves as Operations Manager. Fred previously worked in the Fund Accounting Division of BNY Mellon Alternative Investment Services. His experience encompasses hedge funds, SPVs and FoFs. From 2008 to 2012, he worked in the Client Services Division at J.P. Morgan Asset Management where he oversaw cash management, post-trade risk and valuations. From 2005 until 2008, he began his career at HSBC Transfer Agency Division where he was responsible for monitoring shareholder register and KYC &amp; AML compliance. He holds a Bachelor’s degree in Economics and Finance from the University of Hong Kong and a Master degree in Financial Engineering from the City University of Hong Kong.
                     </div>
                 </div>
             </div>
@@ -1306,10 +1368,10 @@
                         &copy; 2019 Wolver Hill Asset Management Asia Limited
                     </div>
                     <div class="col-lg-1 align-self-center">
-                        <button type="button" class="btn btn-success">Disclaimer</button>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#disclaimer">Disclaimer</button>
                     </div>
                     <div class="col-lg-1 align-self-center">
-                        <button type="button" class="btn btn-success">Privacy</button>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#privacy">Privacy</button>
                     </div>
                 </div>
             </div>
@@ -1320,4 +1382,205 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
+    
+    <!-- Disclaimer Agreement -->
+    <div class="modal fade" id="disclaimer" tabindex="-1" role="dialog" aria-labelledby="disclaimerContent" aria-hidden="true">
+        <div class="modal-dialog modal-dialog cenetered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                        <div class="col-12 modal-title text-center" style="font-weight: bold;">
+                            Disclaimer
+                        </div>
+                </div>
+                <div class="modal-body">
+                    <!--<div class="row">
+                        <div class="col-12 text-center">
+                            <a class="d-lg-none" href="#close"><button type="button" class="btn btn-success">Scroll to bottom</button></a>
+                        </div>
+                    </div>-->
+
+                    This website contains information about Wolver Hill Asset Management Asia Limited ("WHAMAL") and the products and/or funds offered by WHAMAL. This website is not directed to any person in any jurisdiction where the publication or availability of the WHAMAL website is prohibited. Persons in respect of whom such prohibitions apply must not access the WHAMAL website.<br><br>
+                    
+                    The information provided on this website should not be considered as an offer, or solicitation, to deal in any of the investments mentioned herein, by anyone in any jurisdiction in which such offer or solicitation would be unlawful or in which the person making such offer or solicitation is not qualified to do so or to anyone to whom it is unlawful to make such offer or solicitation. Those who access this website do so on their own initiative and are therefore responsible for observing all applicable laws and regulations of their relevant jurisdictions before proceeding to access the information contained herein.
+                    <br><br>
+                    
+                    The information provided on the WHAMAL website is not intended for distribution to, or use by, any person or entity in any jurisdiction or country that would subject WHAMAL or its affiliates to any registration requirement within such jurisdiction or country.
+                    <br><br>
+                    
+                    While WHAMAL takes care to ensure that the information on this website is accurate and up to date at the time of publishing, the information on this website is provided "as is" without any warranty of any kind. WHAMAL shall not be liable for any losses or damages relating to adequacy, accuracy or completeness of any information on this website or the use of such information. The information on this website is being provided strictly for informational purposes only and does not constitute investment advice.All information contained herein may be changed or amended without prior notice. Also, WHAMAL is not responsible for any errors or omissions relating to information provided by any third party.
+                    <br><br>
+
+                    Investment involves risks. The fund does not give any guarantees. Past performance is not a reliable indicator of its future performance. WHAMAL does not guarantee the performance of any WHAMAL funds, the return of an investor’s capital nor any specific rate of return. Value of investments can go down as well as up. Prior to investing, please refer to the Explanatory Memorandum of the fund for details including risk factors. You should ensure you fully understand the risks associated with the investment and should also consider your own investment objective and risk tolerance. If you have any queries, please contact your financial advisor and seek professional advice.
+                    <br><br>
+
+                    Nothing on this website constitutes a distribution solicitation, invitation, recommendation or offer to purchase a product offered by WHAMAL or any WHAMAL funds or as the basis for any investment decision.
+                    <br><br>
+
+                    <div class="section">Cookies</div>
+                    WHAMAL does not accept responsibility for any interference or damage to your own computer system, the records stored thereon or those of any other person, which arises in connection with your use of this website or any linked website. A cookie is utilized on this website. It allows your browser to check whether you have read and agreed to these Terms. The cookie does not contain any personally identifiable information. Unfortunately, if your browser is set up to reject cookies you will not be able to see the content of this website. All copyrights reserved and its contents including all information, graphics, code, text and design in this website are owned by WHAMAL and should not be reproduced or distributed without its permission. These Terms are governed exclusively by the laws of Hong Kong Special Administrative Region and constitute the entire agreement between you and WHAMAL in relation to the use of this website.
+                    <br><br>
+
+                    <div class="section">Hyperlinks</div>
+                    When you access certain links on our website you may leave our website. WHAMAL has not reviewed any of the websites linked to our website and does not endorse or accept any responsibility for the content of such websites nor the products, services or other items offered through these websites.
+                    <br><br>
+
+                    <div class="section">Privacy Policy and Data Protection</div>
+                    WHAMAL is committed to maintaining your personal data—that is, information relating to a living individual from whom it is practicable for the identity of the individual to be directly or indirectly ascertained- in accordance with the requirements of the Personal Data (Privacy) Ordinance and will take all reasonable steps to ensure that your personal data is kept secure against unauthorized access, loss, disclosure and destruction. Please be aware that this Statement replaces any notice or statement of similar nature issued by the Company previously, pursuant to the Personal Data (Privacy) Ordinance (the “Ordinance”). WHAMAL’s more detailed privacy policy document is detailed here.
+                    <br><br>
+
+                    <div class="section">Limitation of Liability on System and Transmission over the Internet</div>
+                    WHAMAL or its affiliates, or any of their respective directors, officers, employees or agents shall not liable for any event of Force Majeure, any virus or other harmful component affecting the website or any server that operates it, any interception of data or communications in connection with the public nature of the internet, any problems or technical malfunction of any telephone network or lines, computer online systems, servers or providers, computer equipment, software failure of any email or entry to be received on account of technical problems or traffic congestion on the Internet, telephone lines or at any website, or any combination thereof, including any loss of opportunities or profit arising from any time delay, system disruption or interruption, transmission blackout, delayed transmission or any incorrect data transmission, or any injury or damage to the computer or other electronic devices or property of any person accessing their website or any other person related to or resulting from accessing this website or downloading any materials from this website.
+                    <br><br>
+
+                    <div class="section">By clicking on "Accept", you confirm that you have read, understood and agreed to the above terms of use.</div>
+                    Wolver Hill Asset Management Asia Limited is regulated by the Securities and Futures Commission of Hong Kong. This website has not been reviewed by the Securities and Futures Commission of Hong Kong and may contain information of non-SFC authorized funds. Issued by Wolver Hill Asset Management Asia Limited.
+                    <br><br>
+                    
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Accept</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Privacy Agreement -->
+    <div class="modal fade" id="privacy" tabindex="-1" role="dialog" aria-labelledby="privacyContent" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="col align-self-center modal-title text-center" style="font-weight: bold">
+                        Privacy
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-labelledby="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="section">Wolver Hill Asset Management Asia Limited Personal Information Collection Statement Relating to the Hong Kong Personal Data (Privacy) Ordinance (Chapter 486 of the Laws of Hong Kong).</div>
+
+                    <strong>Wolver Hill Asset Management Asia Limited</strong> (the “Company”) is committed to maintaining your personal data—that is, information relating to a living individual from whom it is practicable for the identity of the individual to be directly or indirectly ascertained- in accordance with the requirements of the Personal Data (Privacy) Ordinance and will take all reasonable steps to ensure that your personal data is kept secure against unauthorized access, loss, disclosure and destruction. Please be aware that this Statement replaces any notice or statement of similar nature issued by the Company previously, pursuant to the Personal Data (Privacy) Ordinance (the “Ordinance”).
+                    <br><br>
+
+                    <div class="section">Obligation to Disclose Personal Data</div>
+                    Unless otherwise stated, you must supply personal data requested by us in connection with the opening or continuation of accounts with us by you or by companies related to you, the provision of services or products by us, or the use of certain features of our website, such as the submission of applications for employment. Failure to supply such data may result in the Company being unable to open or maintain such account(s) or provide services or products to you or companies related to you or to process an employment application as we may not have sufficient information.<br><br>
+
+                    <div class="section">The purposes and retention of the information:</div>
+
+                    <ol>
+                        <li>
+                             From time to time, it is necessary for clients and various other individuals (“data subjects”) to supply the Company with data in connection with various matters such as account opening or continuations, or provision of services to clients and other individuals or compliance with any laws or guidelines issued by regulatory or other authorities.
+                        </li>
+                        <li>
+                            Such data may include, but not limited to, data collected from data subjects in the ordinary course of the continuation of the company’s relationship with them, for example, when clients open account, write cheques, transfer funds, effect transactions, attend seminar/events or generally communicate verbally or in writing with the Company.
+                        </li>
+                        <li>
+                            The purposes for which data relating to a data subject may be used will vary depending on the nature of data subject’s relationship with the Company. They may comprise any or all of the following purposes:
+                            <ul>
+                                <li>The processing of application for an account with the Company;
+                                </li>
+                                <li>The daily operation of the services
+                                </li>
+                                <li>
+                                    Marketing financial services or related products
+                                </li>
+                                <li>
+                                    Meeting the disclosure and compliance requirements under any laws or regulatory requirements applicable to the Company
+                                </li>
+                                <li>
+                                    Evaluating the candidacy of applicants for employment, and, where an application is successful, all aspects of our human resources functions
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            All personal data, whether provided by you or another person, and whether provided before or after the date you receive this statement, may be provided to, exchanged with or transferred to, in the following circumstances as we may consider necessary whether the recipients are inside of or external to Hong Kong.
+                            <ul>
+                                <li>
+                                    Third party disclosures may include sharing such information with non-affiliated companies who perform support services on our behalf including those that provide professional, legal or accounting advice to the Company.
+                                </li>
+                                <li>We may also disclose your personal information to fulfil your instruction or pursuant to your express consent.
+                                </li>
+                                <li>
+                                    In the case of applicants for employment or current employees, we may provide applicants’ personal data to entities that provide services to us relating to human resources processes (which may include pre-employment or other background checking).
+                                </li>
+                                <li>
+                                    Finally, under limited circumstances, your personal information may be disclosed to third parties as permitted by, or to comply with, applicable laws and regulations.
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+
+                    <strong>Use of Data in Direct Marketing:</strong>
+                    <ol>
+                        <li>
+                            The Company intends to use the data subject’s data in direct marketing and the Company requires the data subject’s consent (which includes an indication of no objection) for that purpose. The specific requirement regarding data subject’s consent (which includes an indication of no objection) under Part VIA of the Personal Data (Privacy) Ordinance 2012 shall take effect from 1st April 2013.
+                        </li>
+                        <li>
+                            Pursuant to the Ordinance, direct marketing activities conducted by the Company may include but not limited to the following:
+                            <ul>
+                                <li>
+                                    offering, or advertising of the availability, of goods, facilities or services; or
+                                </li>
+                                <li>
+                                    sending information or goods, addressed to specific persons by name, by mail, fax, electronic mail or other means of communication; or
+                                </li>
+                                <li>
+                                    making telephone calls to specific person.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            In this connection, please note that: the name, contact details, products and services portfolio information, transaction pattern and behaviour, financial background and demographic data of the data subject held by the Company from time to time may be used by the Company in direct marketing.
+                        </li>
+                        <li>
+                            In addition to marketing services, products the Company is allowed to provide, the Company also intends to provide the data collected from data subjects to third parties (as permitted by, or to comply with, applicable laws and regulations) for use by them in marketing those services, products and subjects, and the Company requires the data subject’s written consent (which includes an indication of no objection) for that purpose.
+                        </li>
+                        <li>
+                            If data subject does not wish the Company to use or provide to other persons his data for use in direct marketing as described above, the data subject may exercise his opt-out right by notifying the Company.
+                        </li>
+                    </ol>
+
+                    <strong>Under the Ordinance, any individual has the right:</strong>
+
+                    <ol>
+                        <li>
+                            To check whether the Company holds data about him or her, and of access to such data;
+                        </li>
+                        <li>
+                            To require the Company to correct any data relating to him or her which is accurate
+                        </li>
+                        <li>
+                             To object to the use of his/her personal data for marketing purposes and the Company shall not use his/her personal data for marketing purposes after he/she communicates his/her objection to the Company.
+                        </li>
+                    </ol>
+                   
+                    The holder of the personal data may requests to access to data or correction data. Such a request to be addressed as follows:
+                    <br><br>
+
+                    The Compliance Officer<br>
+                    Wolver Hill Asset Management Asia Limited<br>
+                    15th Floor LKF 29<br>
+                    29 Wyndham St, Central, Hong Kong
+                    <br><br>
+
+                    Nothing in this statement shall limit the rights of any data subject under the Ordinance.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- jQuery -->
+    <script type="text/javascript">
+        /* Shows disclaimer at startup */
+        $(document).ready(function() {
+            $("#disclaimer").modal('show');
+        })
+        
+        /* Hides dropdown navbar after link is clicked */
+        $(document).on('click', function() {
+            $('#navbarCollapse').collapse('hide');
+        })
+    </script>
 </html>
