@@ -34,10 +34,34 @@ body .modal-open {
     padding: 2rem 2.5rem;
 }
 
+@media screen and (max-width: 991.98px) {
+    .new-section {
+        padding: 2rem 4rem;   
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .new-section {
+        padding: 2rem 2rem;
+    }
+}
+
 .heading {
     font-weight: bold;
     font-size: 2.2em;
     padding-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 991.98px) {
+    .heading {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .heading {
+        font-size: 2rem;
+    }
 }
 
 .btn-success {
@@ -64,21 +88,21 @@ body .modal-open {
     min-height: 100%;
     background-color: var(--wh-green);
     color: var(--light-gray);
-    padding: 3rem 5rem;
+    padding: 3rem 2rem;
 }
 
-.o-1 {
+#overview .o-1 {
     font-size: 3rem;
     font-weight: 300;
     margin-bottom: -1rem;
 }
 
-.o-2 {
+#overview .o-2 {
     font-size: 6rem;
     font-weight: 700;
 }
 
-.o-3 {
+#overview .o-3 {
     font-size: 2rem;
     font-weight: 600;
 }
@@ -89,49 +113,49 @@ body .modal-open {
     line-height: 2;
 }
 
-@media screen and (max-width: 767.98px) {
-    .o-1 {
-        font-size: 2rem;
-        font-weight: 300;
+@media screen and (max-width: 991.98px) {
+    #overview .overview-body {
+        font-size: 1.15rem;
+        font-weight: 200;
+        line-height: 1.6;
     }
     
-    .o-2 {
+    #overview .o-1 {
+        font-size: 2rem;
+        font-weight: 250;
+        margin-bottom: -1rem;
+    }
+    
+    #overview .o-2 {
         font-size: 4rem;
         font-weight: 500;
     }
     
-    .o-3 {
-        font-size: 1.25rem;
+    #overview .o-3 {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    #overview .o-1 {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    
+    #overview .o-2 {
+        font-size: 3.6rem;
+        font-weight: 500;
+    }
+    
+    #overview .o-3 {
+        font-size: 1.1rem;
         font-weight: 500;
     }
     
     #overview .overview-body {
         padding-top: 2rem;
         font-size: 1.05rem;
-    }
-}
-
-@media screen and (max-width: 991.98px) {
-    .overview-body {
-        font-size: 0.95rem;
-        font-weight: 200;
-        line-height: 1.85;
-    }
-    
-    .o-1 {
-        font-size: 2.5rem;
-        font-weight: 250;
-        margin-bottom: -1rem;
-    }
-    
-    .o-2 {
-        font-size: 5rem;
-        font-weight: 500;
-    }
-    
-    .o-3 {
-        font-size: 1.5rem;
-        font-weight: 400;
     }
 }
 
@@ -154,36 +178,38 @@ body .modal-open {
     margin-bottom: 3rem;
 }
 
+@media screen and (max-width: 991.98px) {
+    #services .card {
+        margin-bottom: 2rem;
+    }
+
+    .service {
+        font-size: 2rem;
+    }
+
+    .service-body {
+        font-size: 1.35rem;
+    }
+}
+
 @media screen and (max-width: 767.98px) {
     #services .card {
         margin-bottom: 2rem;
         font-size: 1.05rem;
     }
     
+    .service {
+        font-size: 1.5rem;
+    }
+    
+    .service-body {
+        font-size: 1.1rem;
+    }
+    
     #services img {
         width: 20%;
     }
 }
-
-@media screen and (max-width: 991.98px) {
-    .new-section {
-        padding: 2.5rem 7.5rem; 
-    }
-    
-    #services .card {
-        margin-bottom: 1rem;
-    }
-}
-
-/* Separator */
-#separator {
-    
-}
-
-/*
-#separator img {
-    width: 100vw;
-}*/
 
 /* Why */
 #why {
@@ -197,6 +223,12 @@ body .modal-open {
     margin-bottom: 3rem;
 }
 
+@media screen and (max-width: 991.98px) {
+    #why .card {
+        margin-bottom: 2rem;
+    }
+}
+
 @media screen and (max-width: 767.98px) {
     #why .card {
         margin-bottom: 2rem;
@@ -205,12 +237,6 @@ body .modal-open {
     
     #why img {
         width: 20%;
-    }
-}
-
-@media screen and (max-width: 991.98px) {
-    #why .card {
-        margin-bottom: 1rem;
     }
 }
 
@@ -260,9 +286,27 @@ body .modal-open {
     font-weight: 250;
 }
 
+@media screen and (max-width: 991.98px) {
+    #diligence .title-text {
+        padding-bottom: 2rem;
+    }
+    
+    #diligence .dd-row {
+        padding-bottom: 0;
+    }
+    
+    #diligence .title {
+        font-size: 2rem;
+    }
+    
+    #diligence .body {
+        font-size: 1.5rem;
+    }
+}
+
 @media screen and (max-width: 767.98px) {
     #diligence {
-        padding: 3rem;
+        padding: 2rem;
     }
     
     #diligence .dd-title {
@@ -281,24 +325,6 @@ body .modal-open {
     #diligence .body {
         padding: 0 1rem 1rem 1rem;
         font-size: 1.15rem;
-    }
-}
-
-@media screen and (max-width: 991.98px) {
-    #diligence .title-text {
-        padding-bottom: 2rem;
-    }
-    
-    #diligence .dd-row {
-        padding-bottom: 0;
-    }
-    
-    #diligence .title {
-        font-size: 2rem;
-    }
-    
-    #diligence .body {
-        font-size: 1.5rem;
     }
 }
 
@@ -329,7 +355,32 @@ body .modal-open {
     padding-bottom: 2rem;
 }
 
+@media screen and (max-width: 991.98px) {
+    #team img {
+        width: 60%;
+    }
+    
+    #team .name {
+        font-size: 2rem;
+    }
+    
+    #team button {
+        font-size: 1.35rem;
+        margin: 0.35rem;
+    }
+    
+    #team .team-body {
+        font-size: 1.25rem;
+        font-weight: 250;
+        padding-bottom: 1rem;
+    }
+}
+
 @media screen and (max-width: 767.98px) {
+    #team {
+        padding: 2rem 2rem;
+    }
+    
     #team .col-md-6 {
         padding: 0.5rem;
     }
@@ -353,23 +404,6 @@ body .modal-open {
     }
 }
 
-@media screen and (max-width: 991.98px) {
-    #team .name {
-        font-size: 2rem;
-    }
-    
-    #team button {
-        font-size: 1.35rem;
-        margin: 0.35rem;
-    }
-    
-    #team .team-body {
-        font-size: 1.5rem;
-        font-weight: 250;
-        padding-bottom: 1rem;
-    }
-}
-
 /* News */
 #news {
     background-image: url(/images/ep_naturalblack.png);
@@ -381,6 +415,12 @@ body .modal-open {
     cursor: pointer;
 }
 
+@media screen and (max-width: 767.98px) {
+    #news {
+        padding: 2rem 2rem;
+    }
+}
+
 /* Contact */
 #contact {
     height: 100%;
@@ -388,6 +428,10 @@ body .modal-open {
 }
 
 @media screen and (max-width: 767.98px) {
+    #contact {
+        padding: 2rem 2rem;
+    }
+    
     #contact table {
         margin-bottom: 10rem;
     }
