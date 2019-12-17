@@ -25,7 +25,7 @@ body .modal-open {
     position: absolute;
 }
 
-#section-1, #section-2, #section-3, #section-4, #section-5, #section-6, #section-7 {
+#section-1, #section-2, #section-3, #section-4, #section-5, #section-6, #section-7, #section-8 {
     padding-top: var(--navbar-height);
     margin-top: calc(-1 * var(--navbar-height));
 }
@@ -74,8 +74,14 @@ body .modal-open {
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: var(--wh-green);
     color: var(--light-gray);
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-light .navbar-nav .nav-link.active {
+        border-radius: 2em;
+    }
 }
 
 /* Landing */
